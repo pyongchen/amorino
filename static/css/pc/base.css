@@ -1,0 +1,154 @@
+#myNavbar {
+	display: block;
+	overflow: hidden;
+	border:none;
+}
+
+.errInfo {
+    color: red;
+    font-size: 15px;
+    position: absolute;
+    margin: -2% 20%;
+    width: 100%;
+}
+
+#username, #password, #submit {
+    width: 250px;
+    height: 35px;
+    margin: 20px;
+}
+
+#username, #password {
+    background-color: #d7dede;
+}
+
+#submit {
+    
+}
+
+#wait {
+    margin-top: 6%;
+    margin-left: 40%;
+}
+
+#form {
+    float: left;
+}
+
+.erweima_img {
+	width:120px;
+	height:120px;
+}
+
+.search_info {
+    font-size: 16px;
+    text-align: center;
+}
+
+.search span {
+    text-decoration: underline;
+}
+
+.erweima, .other, .contact{
+	height: 200px;
+}
+
+.bottom-content {
+	height:100%;
+}
+
+.bottom-content > img, .bottom-content div, .bottom-content > p{
+	position:absolute;
+	bottom: 0px;
+}
+
+.bottom-content > p {
+	right:15px;
+}
+
+.bottom-content > .back-to-top {
+	position:absolute;
+	bottom: 50px;
+	right: 65px;
+}
+
+.bottom {
+    width: 100%;
+    background-color: #ebebeb;
+    min-height: 300px;
+}
+
+.back-to-top {
+}
+
+.arrow_box img {
+    width: 50px;
+    height: 50px;
+}
+
+#login {
+    display: none;
+    position: absolute;
+    z-index: 100;
+}
+
+.login_info, .alert_login {
+	height:400px;
+}
+
+.login_info {
+    background-color: whitesmoke;
+    float: left;
+}
+
+.login_info h3 {
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.login_info h5 {
+    margin-left: 5%;
+}
+
+.login_info .color-box {
+    width: 30% !important;
+    margin-left: 5%;
+}
+
+.login_info #submit {
+    text-align: center;
+    color: #777;
+}
+
+.alert_login {
+    background-color: whitesmoke;
+    display:table-cell;
+    vertical-align:middle;
+    text-align:center;
+    padding-top: 25px;
+}
+
+.alert_login img {
+    width: 120px !important;
+    height: 120px !important;
+    margin-top: 100px;
+    margin-bottom: 30px;
+}
+
+.alert_login p {
+    text-align: center;
+}
+
+.alert_contact {
+}
+
+.home-nav > h1{
+	width:300px;
+}
+
+#searchs {
+    display: none;
+}
+
+
+

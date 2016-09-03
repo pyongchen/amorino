@@ -1,0 +1,48 @@
+.mobile-collect {
+	background-color: rgb(245,250,251);
+	width:100%;
+	margin-bottom: 50px;
+	position:relative;
+}
+
+.mobile-collect img {
+	margin:25px;
+	width: 100%;
+	height: auto;
+}
+
+.mobile-collect-dis h2, .mobile-collect-dis p {
+	font-size: 2em;
+	padding-top: 150px;
+}
+
+.mobile-collect-com p {
+	font-size: 1.5em;
+	padding-left: 25px;
+}
+
+.mobile-collect-edit-btn {
+	position: absolute;
+	border: none;
+	background-color: rgb(191, 163, 105);
+	color:white;
+	top: 25px;
+	right:25px;
+	width: 100px;
+	height: auto;
+	font-size: 1.5em;
+	z-index: 99;
+}
+
+.mobile-collect-del-btn {
+	position: absolute;
+	border: none;
+	background-color: rgb(191, 163, 105);
+	color:white;
+	top: 25px;
+	right: 150px;
+	width: 100px;
+	height: auto;
+	font-size: 1.5em;
+	z-index:99;
+}

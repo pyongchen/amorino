@@ -1,0 +1,89 @@
+{% extends "client/mobile/base.html" %}
+{% load staticfiles %}
+{% block content %}
+    <script type="text/javascript" src="{% static 'js/controllers/products_ctrl.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/mobile/mobileproduct.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/mobile/mobilemenu.js' %}"></script>
+    <div ng-controller="products_ctrl">
+        <div class="alert_collect" style="" id="love">
+            <div class="collect_info">
+                <h4>{[infos.alert.h1[cur_lang]]}</h4>
+                <h5>{[infos.alert.h2[cur_lang]]}</h5>
+                <div class="color-box"></div>
+                <h3>{[details[show_index]['kind_' + cur_lang]]},{[details[show_index]['color_' +
+                    cur_lang]]},{[details[show_index]['size_' + cur_lang]]},￥{[details[show_index]['price']]}</h3>
+                <input type="text" placeholder=" {[infos.alert.number[cur_lang]]}"/>
+                <br><br>
+                <textarea cols="30" rows="4" placeholder=" {[infos.alert.other[cur_lang]]}"></textarea>
+                <br>
+                <p class="errInfo">{[info]}</p>
+                <button ng-click="submitCollect()">
+                    {[infos.alert.submit[cur_lang]]}
+                </button>
+            </div>
+            <button type="button" class="close" ng-click="removeCollects()"
+                    style="position:absolute;right:15px; top:20px;">
+                <span class="glyphicon glyphicon-remove-circle"></span>
+            </button>
+        </div>
+
+        <div class="container" style="margin-top:100px;">
+            <div class="row" style="padding-left:50px; padding-right:50px;">
+                <div class="col-xs-12">
+                    <div class="row" style="background-color:#ebebeb; position:relative;">
+                        <div class="col-xs-12" id="product-pic" style="padding:0px;">
+                            <img class="detail_img detail"
+                                 ng-repeat="img in images"
+                                 ng-src="/{[images[show_index]]}">
+                        </div>
+                        <div class="col-xs-12" style="padding-left:0px;min-height:550px;">
+                            <div class="text-box text-box-right">
+                                <div class="product-name">
+                                    {[details[show_index]['kind_' + cur_lang]]}
+                                </div>
+                                <div class="home_color-box" style="position:absolute;right:15px;"></div>
+                                <div class="product-material">
+                                    {[details[show_index]['material_' + cur_lang]]}
+                                </div>
+                                <div class="product-color">
+                                    {[details[show_index]['color_' + cur_lang]]}
+                                </div>
+                                <div class="product-color">
+                                    {[details[show_index]['size_' + cur_lang]]}
+                                </div>
+                                <div class="product-price">
+                                    ￥ {[details[show_index]['price']]}
+                                </div>
+                            </div>
+                        </div>
+                        <span ng-click="left()" class="left-arrow glyphicon glyphicon-chevron-left"></span>
+                        <span ng-click="right()" class="right-arrow glyphicon glyphicon-chevron-right"></span>
+                        <div>
+                            <form action="{[downloadUrl]}" method="post">
+                                <button class="detail_btn download-btn" type="submit"
+                                        ng-click="setDownloadUrl()">{[infos.download[cur_lang]]}
+                                </button>
+                            </form>
+                        </div>
+                        <div>
+                            <button class="detail_btn collect-btn">
+                                {[infos.collect[cur_lang]]}
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="row" style="margin-top:50px;">
+                        <div class="col-xs-12" style="padding:0px;">
+                            <h4>{[infos.detail[cur_lang]]}:</h4>
+                            <img style="width:100%; margin-top:25px; margin-bottom:25px;"
+                                 ng-repeat="img in details[show_index].otherImages"
+                                 ng-src="/{[img]}"
+                                 alt="img"/>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

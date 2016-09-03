@@ -31,77 +31,80 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-9 col-sm-8 col-xs-12"> <div class="row" style="background-color:#ebebeb; position:relative;">
-                <div class="col-md-8 col-xs-8" id="product-pic" style="padding:0px;">
-                    <img class="detail_img detail"
-                         ng-repeat="img in images"
-                         ng-src="/{[images[show_index]]}">
-                    <!--span ng-click="left()" class="left-arrow glyphicon glyphicon-chevron-left"></span-->
-                    <!--span ng-click="right()" class="right-arrow glyphicon glyphicon-chevron-right"></span-->
-                </div>
-                <div class="col-md-4 col-xs-4" style="padding-left:0px;">
-                    <div class="text-box text-box-right">
-                        <div class="product-name">
-                            {[details[show_index]['kind_' + cur_lang]]}
-                        </div>
-                        <div class="home_color-box" style="position:absolute;right:15px;"></div>
-                        <div class="product-material">
-                            {[details[show_index]['material_' + cur_lang]]}
-                        </div>
-                        <div class="product-color">
-                            {[details[show_index]['color_' + cur_lang]]}
-                        </div>
-                        <div class="product-color">
-                            {[details[show_index]['size_' + cur_lang]]}
-                        </div>
-                        <div class="product-price">
-                            ￥ {[details[show_index]['price']]}
+            <div class="col-md-9 col-sm-8 col-xs-12">
+                <div class="row" style="background-color:#ebebeb; position:relative;">
+                    <div class="col-md-8 col-xs-8" id="product-pic" style="padding:0px;">
+                        <img class="detail_img detail"
+                             ng-repeat="img in images"
+                             ng-src="/{[images[show_index]]}">
+                    </div>
+                    <div class="col-md-4 col-xs-4" style="padding-left:0px;">
+                        <div class="text-box text-box-right">
+                            <div class="product-name">
+                                {[details[show_index]['kind_' + cur_lang]]}
+                            </div>
+                            <div class="home_color-box" style="position:absolute;right:15px;"></div>
+                            <div class="product-material">
+                                {[details[show_index]['material_' + cur_lang]]}
+                            </div>
+                            <div class="product-color">
+                                {[details[show_index]['color_' + cur_lang]]}
+                            </div>
+                            <div class="product-color">
+                                {[details[show_index]['size_' + cur_lang]]}
+                            </div>
+                            <div class="product-price">
+                                ￥ {[details[show_index]['price']]}
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div>
-                    <form action="{[downloadUrl]}" method="post">
-                        <button class="detail_btn download-btn" type="submit"
-                                ng-click="setDownloadUrl()">{[infos.download[cur_lang]]}
+                    <span ng-click="left()" class="left-arrow glyphicon glyphicon-chevron-left"></span>
+                    <span ng-click="right()" class="right-arrow glyphicon glyphicon-chevron-right"></span>
+                    <div>
+                        <form action="{[downloadUrl]}" method="post">
+                            <button class="detail_btn download-btn" type="submit"
+                                    ng-click="setDownloadUrl()">{[infos.download[cur_lang]]}
+                            </button>
+                        </form>
+                    </div>
+                    <div>
+                        <button class="detail_btn collect-btn" ng-click="alertCollects()">
+                            {[infos.collect[cur_lang]]}
                         </button>
-                    </form>
+                    </div>
                 </div>
-                <div>
-                	<button class="detail_btn collect-btn" ng-click="alertCollects()">
-                    	{[infos.collect[cur_lang]]}
-                    </button>
-                </div>
-            </div>
-                
                 <div class="row" style="margin-top:50px;">
-        			<div class="col-md-12 col-sm-12 col-xs-12" style="padding:0px;">
-	        	    	<h4>{[infos.detail[cur_lang]]}:</h4>
-	        	    	<img ng-repeat="img in details[show_index].otherImages" style="width:100%; margin-top:25px; margin-bottom:25px;" ng-src="/{[img]}" alt="img"/>
-	        		</div>
+                    <div class="col-md-12 col-sm-12 col-xs-12" style="padding:0px;">
+                        <h4>{[infos.detail[cur_lang]]}:</h4>
+                        <img ng-repeat="img in details[show_index].otherImages"
+                             style="width:100%; margin-top:25px; margin-bottom:25px;" ng-src="/{[img]}" alt="img"/>
+                    </div>
 
-      	    		<div class="alert_collect col-md-12 col-sm-12 col-xs-12" style=""id="love">
-            			<div class="collect_info">
-            			    <h4>{[infos.alert.h1[cur_lang]]}</h4>
-            			    <h5>{[infos.alert.h2[cur_lang]]}</h5>
-            			    <div class="color-box"></div>
-            			    <h3>{[details[show_index]['kind_' + cur_lang]]},{[details[show_index]['color_' + cur_lang]]},
-            			        {[details[show_index]['size_' + cur_lang]]},￥{[details[show_index]['price']]}</h3>
-            			    <input type="text" placeholder=" {[infos.alert.number[cur_lang]]}">
-          	    		    <br><br>
-          	    		    <textarea cols="90" rows="4" placeholder="{[infos.alert.other[cur_lang]]}"></textarea>
-          	    		    <br>
-          	    		    <p class="errInfo">{[info]}</p>
-          	    		    <button ng-click="submitCollect()">
-          	    		        {[infos.alert.submit[cur_lang]]}
-          	    		    </button>
-          	    		</div>
-						<button type="button" class="close" ng-click="removeCollects()" style="position:absolute;right:15px; top:20px;">
-                    		<span class="glyphicon glyphicon-remove-circle"></span>
-                		</button>
-        			</div> 
-        		</div>
-                       
-            </div>  
+                    <div class="alert_collect col-md-12 col-sm-12 col-xs-12" style="" id="love">
+                        <div class="collect_info">
+                            <h4>{[infos.alert.h1[cur_lang]]}</h4>
+                            <h5>{[infos.alert.h2[cur_lang]]}</h5>
+                            <div class="color-box"></div>
+                            <h3>{[details[show_index]['kind_' + cur_lang]]},{[details[show_index]['color_' +
+                                cur_lang]]},
+                                {[details[show_index]['size_' + cur_lang]]},￥{[details[show_index]['price']]}</h3>
+                            <input type="text" placeholder=" {[infos.alert.number[cur_lang]]}">
+                            <br><br>
+                            <textarea cols="90" rows="4" placeholder="{[infos.alert.other[cur_lang]]}"></textarea>
+                            <br>
+                            <p class="errInfo">{[info]}</p>
+                            <button ng-click="submitCollect()">
+                                {[infos.alert.submit[cur_lang]]}
+                            </button>
+                        </div>
+                        <button type="button" class="close" ng-click="removeCollects()"
+                                style="position:absolute;right:15px; top:20px;">
+                            <span class="glyphicon glyphicon-remove-circle"></span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
         </div>
     </div>
 

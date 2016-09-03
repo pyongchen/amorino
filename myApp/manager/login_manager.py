@@ -2,6 +2,7 @@
 
 from member_manager import memberManager
 from json_manager import jsonManager
+from django.shortcuts import render_to_response
 import json
 
 
@@ -40,8 +41,11 @@ class LoginManager(object):
             'users': memberManager.get_members()
         }
 
-    def login(self, request):
-        data = json.loads(request.body)
+    def login(self, request, flag):
+        if flag == 'mobile':
+            data = request.POST
+        else:
+            data = json.loads(request.body)
         if data.has_key('username'):
             username = data['username']
         else:
@@ -67,6 +71,19 @@ class LoginManager(object):
             self.result['fail'] = self.info['noExist']
             self.result['success'] = ''
         return json.dumps(json.dumps(self.result))
+
+    def mobile_login(self, request):
+        self.login(request, 'mobile')
+        print self.result['success']
+        if self.result['success'] == '':
+            return render_to_response('client/mobile/login.html', {
+                'title': '登录',
+                'info': self.result['fail']
+            })
+        else:
+            return render_to_response('client/mobile/homepage.html', {
+                'title': '登录',
+            })
 
     def admin_login(self, request):
         admin = request.POST

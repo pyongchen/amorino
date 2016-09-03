@@ -2,7 +2,7 @@
 {% load staticfiles %}
 
 {% block  content %}
-    <link rel="stylesheet" href="{% static 'css/collects.css' %}">
+    <link rel="stylesheet" href="{% static 'css/pc/collects.css' %}">
     <script type="text/javascript" src="{% static 'js/controllers/collects_ctrl.js' %}"></script>
     <div class="container collects" ng-controller="collects_ctrl">
         <h3 class="head">{{ username }}{[infos.head[cur_lang]]}</h3>
@@ -48,16 +48,16 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h3 class="modal-title text-info" id="myModalLabel">
-                            确定要删除此收藏?
+                            {[infos.alert.makeSure[cur_lang]]}
                         </h3>
                     </div>
                     <div class="modal-body">
                         <button class="btn btn-success col-sm-offset-1"
                                 ng-click="submitDelete()"
-                                data-dismiss="modal">确 定
+                                data-dismiss="modal">{[infos.alert.yes[cur_lang]]}
                         </button>
                         <button class="btn btn-danger col-sm-offset-1"
-                                data-dismiss="modal">取 消
+                                data-dismiss="modal">{[infos.alert.no[cur_lang]]}
                         </button>
                     </div>
                     <div class="modal-footer"></div>

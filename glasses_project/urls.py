@@ -18,6 +18,7 @@ from myApp import views as my_app_views
 
 urlpatterns = [
     url(r'^home', my_app_views.home, name='home'),
+    url(r'^login_page', my_app_views.login_page, name='login_page'),
     url(r'^login', my_app_views.login, name='login'),
     url(r'^logout/', my_app_views.logout, name='logout'),
     url(r'^products_list/$', my_app_views.products_list, name='products_list'),

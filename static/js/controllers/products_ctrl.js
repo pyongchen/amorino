@@ -182,8 +182,8 @@ var infos = {
         },
         "submit": {
             "zh": "确认收藏",
-            "en": "Confirm the collection",
-            "es": "Confirma la colección"
+            "en": "Confirm",
+            "es": "Confirma"
         },
         "err": {
             "zh": "请输入商品数量",

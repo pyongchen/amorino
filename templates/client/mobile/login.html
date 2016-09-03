@@ -1,0 +1,28 @@
+{% extends "client/mobile/base.html" %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="container" style="margin-top:100px;min-height:1000px;">
+    <div class="login_info mobile-login">
+        <h3 class="modal-title" id="myModalLabel">
+            {[baseInfo.alert.info1[cur_lang]]}
+        </h3>
+        <h5>{[baseInfo.alert.info2[cur_lang]]}</h5>
+        <div class="color-box">
+
+        </div>
+        <div class="modal-body" id="form">
+            <form id="loginForm" method="post" action="/login" enctype="multipart/form-data">
+                <input type="text" placeholder="{[baseInfo.alert.username[cur_lang]]}" name="username"
+                       class="form-control" id="username"/>
+                <input type="password" placeholder="{[baseInfo.alert.password[cur_lang]]}" name="password"
+                       class="form-control" id="password"/>
+                <p class="errInfo">{{ info.zh }}</p>
+                <input type="submit" id="submit"
+                       value="{[baseInfo.alert.login[cur_lang]]}"/>
+            </form>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

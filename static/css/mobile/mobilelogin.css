@@ -1,0 +1,39 @@
+.mobile-login {
+	background-color:white;
+}
+
+.mobile-login h3 {
+	font-size: 3em;
+}
+
+.mobile-login h5 {
+	font-size: 1.5em;
+}
+
+.mobile-login input{
+	font-size:1.5em;
+	height: 55px !important;
+	width: 400px !important;
+	margin-bottom: 40px !important;
+}
+
+.mobile-login .color-box{
+	height:4px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	background-color:rgb(198,186,155);
+}
+
+.mobile-login .errInfo {
+	position:relative;
+	margin:0px;
+	left:20px;
+	font-size:1.2em;
+}
+
+.mobile-login #submit {
+	border:none;
+	background-color:rgb(198,186,155);
+	color:white;
+	font-size:1.7em;
+}

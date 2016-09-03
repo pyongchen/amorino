@@ -1,0 +1,138 @@
+h1, h2, h3, h4, h5, h6, p {
+	font-weight:300;
+}
+
+.mediab {
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.bottom-content > img, .bottom-content div, .bottom-content > p {
+	position: clear;
+}
+
+.mobile-bottom-img {
+	margin: 25px;
+	width:120px;
+	height:120px;
+}
+
+.mobile-bottom-contact {
+	margin: 25px;
+}
+
+.mobile-bottom-contact p {
+	font-size: 1.2em;
+}
+
+.bottom {
+	min-height: 200px;
+}
+
+.text-box p {
+	font-size:2.0em;
+}
+
+.text-box h2 {
+	font-size: 2.7em;
+}
+
+.text-box .product-name {
+	font-size:3em;
+}
+
+.text-box .product-material, .text-box .product-color, .text-box .product-price{
+	font-size:2em;
+}
+
+.img-list {
+	height:400px;
+}
+
+.mobile-header{
+	position: fixed;
+	top:0px;
+	left:0px;
+	height:100px;
+	width:100%;
+	z-index:9999;
+	background-color:white;
+	border-bottom: 1px solid gray;
+	vertical-align: middle;
+	text-align:center;
+}
+
+.mobile-header span {
+	font-size:2.5em;
+}
+
+.mobile-menu {
+	position:fixed;
+	top: 100px;
+	left: 0px;
+	height: 100%;
+	background-color:white;
+	width:100%;
+	display:none;
+	z-index: 1000;
+}
+
+.mobile-menu ul {
+	padding-left: 0px;
+}
+.mobile-menu > ul {
+	list-style-type: none;
+	font-size:3em;
+	text-align:center;
+	font-weight:300;
+}
+
+.mobile-menu > ul > li {
+	margin-top: 100px;
+}
+
+.mobile-sub-menu {
+	list-style-type:none;
+	display:none;
+}
+
+.mobile-sub-menu > li {
+	font-size: 0.8em;
+	font-weight: 300;
+	margin-top:25px;
+}
+
+.mobile-header h1 {
+	font-size: 4em;
+}
+
+.mobile-header .glyphicon-search {
+	position: absolute;
+	right: 25px;
+	top:30px;
+}
+
+.mobile-header .glyphicon-remove {
+	display:none;
+}
+
+.mobile-header .glyphicon-remove, .mobile-header .glyphicon-align-justify {
+	position: absolute;
+	left: 25px;
+	top:30px;
+}
+
+.detail_btn {
+	font-size: 2em;
+	height: 50px;
+	width: 200px;
+	top:90%;
+}
+
+.collect-btn {
+	right: 50px;
+}
+
+.download-btn {
+	left: 50px;
+}

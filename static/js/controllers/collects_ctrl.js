@@ -49,6 +49,8 @@ angular.module('glassApp')
             if ($scope.collects[index].status == 'edit') {
                 $scope.collects[index].status = 'confirm';
                 $('.detail-text-box input').css('background-color', '#8c8c8c');
+                $('#note').css('position', 'absolute');
+                $('.mobile-collect-com textarea').css('margin-left', '10px');
             } else {
                 var number = $('.number-box').val();
                 var message = $('.message-box').val();
@@ -62,9 +64,7 @@ angular.module('glassApp')
                         id: id
                     }
                 };
-                console.log(req);
                 $http(req).then(function (response) {
-                    console.log(response.data);
                     $scope.collects = response.data.user;
                 });
                 $scope.collects[index].status = 'edit';
@@ -104,5 +104,22 @@ var infos = {
         "zh": "备注",
         "en": "Note",
         "es": "comentar"
+    },
+    "alert": {
+        "makeSure": {
+            "zh": "确定要删除此收藏?",
+            "en": "Sure you want to delete this collection?",
+            "es": "Seguro que va a borrar la colección?"
+        },
+        "yes": {
+            "zh": "确定",
+            "en": "Yes",
+            "es": "sí"
+        },
+        "no": {
+            "zh": "取消",
+            "en": "No",
+            "es": "No"
+        }
     }
 };

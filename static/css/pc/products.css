@@ -73,11 +73,17 @@
 }
 
 .right-arrow {
-    left: 64%;
+    position: absolute;
+    font-size: 20px;
+    top: 70%;
+    left: 88%;
 }
 
 .left-arrow {
-    left: 60%;
+    position: absolute;
+    font-size: 20px;
+    top: 70%;
+    left: 82%;
 }
 
 .detail_btn {

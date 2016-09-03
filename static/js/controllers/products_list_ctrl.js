@@ -39,17 +39,25 @@ angular.module('glassApp')
         };
 
         $scope.setDetail = function (type, kind, index) {
-            sessionStorage.setItem('type_', type);
-            sessionStorage.setItem('kind_', kind);
-            sessionStorage.setItem('index_', index);
-            console.log(sessionStorage.getItem('type_') + ' '
-                + sessionStorage.getItem('kind_') + ' '
-                + sessionStorage.getItem('index_'));
-            if($(".username").text()) {
+            if ($(".username").text()) {
+                sessionStorage.setItem('type_', type);
+                sessionStorage.setItem('kind_', kind);
+                sessionStorage.setItem('index_', index);
                 $scope.detail_url = '/products_detail';
             } else {
                 $('#login').fadeIn('slow');
                 $scope.detail_url = '#';
+            }
+        };
+
+        $scope.setDetail_ = function (type, kind, index) {
+            if ($(".username").text()) {
+                sessionStorage.setItem('type_', type);
+                sessionStorage.setItem('kind_', kind);
+                sessionStorage.setItem('index_', index);
+                $scope.detail_url = '/products_detail';
+            } else {
+                $scope.detail_url = '/login_page';
             }
         };
 
@@ -68,7 +76,7 @@ angular.module('glassApp')
 
 function getType($scope, data) {
     var index = 1;
-    for(var obj in $scope.data.products) {
+    for (var obj in $scope.data.products) {
         $scope['type' + index] = data[obj];
         index++;
     }

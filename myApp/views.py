@@ -20,17 +20,24 @@ from myApp.manager.response_data_manager import responseDataManager
 
 
 def home(request):
-    print request.META['HTTP_USER_AGENT'].lower().find('mobile')
-    return render_to_response('client/pc/home.html', {
-                    'title': 'Amorino'}
-                              )
+    mobile = request.META['HTTP_USER_AGENT'].lower().find('mobile')
+    if mobile < 0:
+        return render_to_response('client/pc/home.html', {
+            'title': 'Amorino'})
+    else:
+        return render_to_response('client/mobile/homepage.html', {
+            'title': 'Amorino'})
 
 
 def logout(request):
+    mobile = request.META['HTTP_USER_AGENT'].lower().find('mobile')
     username = request.session.get('username')
-    response = render_to_response('client/pc/home.html', {
-        'title': 'Amorino'}
-                                  )
+    if mobile < 0:
+        response = render_to_response('client/pc/home.html', {
+            'title': 'Amorino'})
+    else:
+        response = render_to_response('client/mobile/homepage.html', {
+            'title': 'Amorino'})
     if username:
         loginManager.log_out(username)
         del request.session['username']
@@ -39,16 +46,30 @@ def logout(request):
 
 def login(request):
     if request.method == 'POST':
-        return HttpResponse(loginManager.login(request),
-                            content_type="application/json")
+        mobile = request.META['HTTP_USER_AGENT'].lower().find('mobile')
+        if mobile < 0:
+            return HttpResponse(loginManager.login(request, 'pc'),
+                                content_type="application/json")
+        else:
+            return loginManager.mobile_login(request)
     else:
         username = request.session.get('username')
         return HttpResponse(username)
 
 
+def login_page(request):
+    return render_to_response('client/mobile/login.html', {
+        'title': 'Amorino'})
+
+
 def products_list(request):
     username = request.session.get('username')
-    return render_to_response('client/pc/products_list.html', {
+    mobile = request.META['HTTP_USER_AGENT'].lower().find('mobile')
+    if mobile < 0:
+        view = 'client/pc/products_list.html'
+    else:
+        view = 'client/mobile/products_list.html'
+    return render_to_response(view, {
         'errMess': 'None',
         'title': 'Products',
         'username': str(username)
@@ -57,16 +78,15 @@ def products_list(request):
 
 def products_detail(request):
     username = str(request.session.get('username'))
-    if username == 'None':
-        return HttpResponse({
-            'errMess': '请先登录才可浏览产品大图',
-            'username': str(username)
-        })
+    mobile = request.META['HTTP_USER_AGENT'].lower().find('mobile')
+    if mobile < 0:
+        view = 'client/pc/products_detail.html'
     else:
-        return render_to_response('client/pc/products_detail.html', {
-            'username': username,
-            'title': 'Products'
-        })
+        view = 'client/mobile/products_detail.html'
+    return render_to_response(view, {
+        'username': username,
+        'title': 'Products'
+    })
 
 
 def admin_login(request):
@@ -231,7 +251,12 @@ def show_collects(request):
     if username == 'None':
         return HttpResponseRedirect('/home')
     else:
-        return render_to_response('client/pc/collects.html', {
+        mobile = request.META['HTTP_USER_AGENT'].lower().find('mobile')
+        if mobile < 0:
+            view = 'client/pc/collects.html'
+        else:
+            view = 'client/mobile/collects.html'
+        return render_to_response(view, {
             'username': username,
             'title': 'Collects'
         })
