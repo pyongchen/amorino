@@ -1,0 +1,81 @@
+{
+  "base": {
+    "home": {
+      "zh": "首页",
+      "en": "Home",
+      "es": "página"
+    },
+    "product": {
+      "zh": "产品",
+      "en": "Products",
+      "es": "Los productos"
+    },
+    "login": {
+      "zh": "登录",
+      "en": "Login",
+      "es": "De inicio de"
+    },
+    "logout": {
+      "zh": "退出",
+      "en": "Logout",
+      "es": "de"
+    },
+    "weChat": {
+      "zh": "微信号",
+      "en": "WeChat ID",
+      "es": "WeChat ID"
+    },
+    "phone": {
+      "zh": "电话",
+      "en": "Phone",
+      "es": "teléfono"
+    },
+    "address": {
+      "zh": "地址",
+      "en": "Address",
+      "es": "La dirección"
+    },
+    "search": {
+      "zh": "搜索",
+      "en": "Search",
+      "es": "La búsqueda"
+    }
+  },
+  "alert": {
+    "sweep": {
+      "zh": "请打开微信扫一扫",
+      "en": "Please open the WeChat to scan",
+      "es": "Por favor, abra dirigida al micro adolece de saúl"
+    },
+    "info1": {
+      "zh": "用户登录",
+      "en": "User Login",
+      "es": "De inicio de sesión del usuario"
+    },
+    "info2": {
+      "zh": "为了更好的用户体验,请先登录,如果您未有账号密码,请扫描右边二维码,向店家索取",
+      "en": "To get better user experience, please login first, if you have no usename or password, please scan the qr code on the right to get for the store",
+      "es": "Para mejor experiencia de usuario, por favor, si usted no iniciar primero cuenta la contraseña, por favor, a la derecha, ErWeiMa escaneo reabren pidieran"
+    },
+    "username": {
+      "zh": "用户名",
+      "en": "Username",
+      "es": "El nombre de usuario"
+    },
+    "password": {
+      "zh": "密码",
+      "en": "Password",
+      "es": "La contraseña"
+    },
+    "login": {
+      "zh": "登录",
+      "en": "Login",
+      "es": "De inicio de"
+    },
+    "logout": {
+      "zh": "此用户已退出",
+      "en": "The User has Logout",
+      "es": "Este usuario se ha retirado"
+    }
+  }
+}

@@ -1,0 +1,68 @@
+{% extends 'client/pc/base.html' %}
+{% load staticfiles %}
+
+{% block  content %}
+    <link rel="stylesheet" href="{% static 'css/collects.css' %}">
+    <script type="text/javascript" src="{% static 'js/controllers/collects_ctrl.js' %}"></script>
+    <div class="container collects" ng-controller="collects_ctrl">
+        <h3 class="head">{{ username }}{[infos.head[cur_lang]]}</h3>
+        <div class="media collect-item" ng-repeat="collect in collects">
+            <div class="media-left media-middle img-box">
+                <img class="media-object" ng-src="{[collect.product.image]}" alt="img">
+            </div>
+            <div class="media-body detail-text-box">
+                <h4 class="info1">{[collect.product['kind_' + cur_lang]]},
+                    {[collect.product['color_' + cur_lang]]},
+                    {[collect.product['size_' + cur_lang]]}
+                    {[collect.product['price']]}</h4>
+                <div class="info-box1">
+                    <span>{[infos.number[cur_lang]]}:
+                        <span ng-if="collect.status == 'edit'" style="font-size: 1em; margin: 0">{[collect.number]}</span>
+                    </span>
+                    <input ng-if="collect.status == 'confirm'" class="number-box" value="{[collect.number]}">
+                </div>
+                <div class="info-box2">
+                    <span>{[infos.message[cur_lang]]}:
+                        <span ng-if="collect.status == 'edit'" style="font-size: 1em; margin: 0">{[collect.message]}</span>
+                    </span>
+                    <textarea ng-if="collect.status == 'confirm'" class="message-box"
+                              rows="5">
+                        {[collect.message]}
+                    </textarea>
+                </div>
+
+            </div>
+            <div class="media-body">
+                <div class="btn-box edit" ng-click="btnClick($index, collect.id)">
+                    {[infos[collect.status][cur_lang]]}
+                </div>
+                <div class="btn-box delete" data-target="#delete" data-toggle="modal"
+                    ng-click="setDeleteInfo(collect.id)">
+                    {[infos.delete[cur_lang]]}
+                </div>
+            </div>
+        </div>
+        <div class="modal fade" id="delete" tabindex="-1" role="dialog"
+             aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h3 class="modal-title text-info" id="myModalLabel">
+                            确定要删除此收藏?
+                        </h3>
+                    </div>
+                    <div class="modal-body">
+                        <button class="btn btn-success col-sm-offset-1"
+                                ng-click="submitDelete()"
+                                data-dismiss="modal">确 定
+                        </button>
+                        <button class="btn btn-danger col-sm-offset-1"
+                                data-dismiss="modal">取 消
+                        </button>
+                    </div>
+                    <div class="modal-footer"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

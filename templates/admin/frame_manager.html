@@ -1,0 +1,49 @@
+{% load staticfiles %}
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab-pane fade"
+     role="tabpanel" id="bottom">
+    <h1 class="page-header">
+        修改导航,底部,信息,二维码图片
+    </h1>
+    <div class="modal-body">
+        <form enctype="multipart/form-data" method="post" id="frame_data">
+            <label>导航文字:</label>
+            <input type="text" name="nav" ng-model="frame.nav" class="form-control">
+            <br>
+            <label>二维码:</label>
+            <img class="erweima" ng-src="/{[frame.image]}" alt="二维码">
+            <div class="btn btn-success col-lg-offset-1">
+                <input type="file" name="bottom_img" id="bottom_img">
+            </div>
+            <br>
+            <label>地址:</label>
+            <input type="text" name="address" ng-model="frame.address_zh" class="form-control">
+            <label>电话:</label>
+            <input type="text" name="phone" ng-model="frame.phone" class="form-control">
+            <label>微信公众号:</label>
+            <input type="text" name="weChat" ng-model="frame.weChat" class="form-control">
+            <label>其他:</label>
+            <input type="text" name="other" ng-model="frame.other" class="form-control">
+            <br>
+            <button class="form-control glyphicon glyphicon-upload
+                        btn btn-primary" ng-click="changeFrame()"
+                    data-toggle="modal" data-target="#success"
+                    data-dismiss="modal">提交修改
+            </button>
+        </form>
+    </div>
+    <div class="modal fade" id="success" tabindex="-1" role="dialog"
+         aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-sm" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h3 class="modal-title text-info text-center"
+                        id="myModalLabel">修改成功
+                        <button class="btn btn-success col-sm-offset-1"
+                            data-dismiss="modal">确 定
+                        </button>
+                    </h3>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

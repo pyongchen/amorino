@@ -1,0 +1,78 @@
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab-pane fade"
+     role="tabpanel" id="home">
+    <h1 class="page-header">首页内容</h1>
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            第一部分
+            <button class="btn btn-success col-lg-offset-1"
+                    data-toggle="modal" data-target="#first">
+                <span class="glyphicon glyphicon-scissors"> 修改</span>
+            </button>
+        </div>
+        <div class="panel-body">
+            <div class="panel panel-default">
+                <div class="panel-heading">固定图片:</div>
+                <div class="panel-body">
+                    <img ng-src="/{[home.first.fix_img]}" alt="轮播图片" class="show_img">
+                </div>
+            </div>
+            <div class="panel panel-default">
+                <div class="panel-heading">首页轮播图片:</div>
+                <div class="panel-body">
+                    <img ng-repeat="img in home.first.images"
+                         ng-src="/{[img]}" alt="轮播图片" class="show_img turns">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="panel panel-warning">
+        <div class="panel-heading">
+            第二部分
+            <button class="btn btn-success col-lg-offset-1"
+                    data-toggle="modal" data-target="#second">
+                <span class="glyphicon glyphicon-scissors"> 修改</span>
+            </button>
+        </div>
+        <div class="panel-body">
+            <p>第一行:
+                <span>{[home.second.p1_zh]}</span>
+            </p>
+            <p>第二行:
+                <span>{[home.second.p2_zh]}</span>
+            </p>
+            <p>第三行:
+                <span>{[home.second.p3_zh]}</span>
+            </p>
+            <p>展示图:
+                <img ng-src="/{[home.second.image]}"
+                     class="show_img" alt="展示图">
+            </p>
+        </div>
+    </div>
+    <div class="panel panel-danger">
+        <div class="panel-heading">
+            第三部分
+            <button class="btn btn-success col-lg-offset-1"
+                    data-toggle="modal" data-target="#third">
+                <span class="glyphicon glyphicon-scissors"> 修改</span>
+            </button>
+        </div>
+        <div class="panel-body">
+            <p>第一行:
+                <span>{[home.third.p1_zh]}</span>
+            </p>
+            <p>第二行:
+                <span>{[home.third.p2_zh]}</span>
+            </p>
+            <p>第三行:
+                <span>{[home.third.p3_zh]}</span>
+            </p>
+            <p>展示图:
+                <img ng-src="/{[home.third.image]}"
+                     class="show_img" alt="展示图">
+            </p>
+        </div>
+    </div>
+</div>
+{% include 'admin/home_edit_parts.html' %}

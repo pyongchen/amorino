@@ -1,0 +1,89 @@
+{% load staticfiles %}
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab-pane fade"
+     role="tabpanel" id="products">
+    <h1 class="page-header">
+        产品管理
+        <div class="button button-royal button-pill"
+             data-toggle="modal" data-target="#addType">
+            添加新的类型
+        </div>
+        <span class="info col-md-offset-1">{[info]}</span>
+    </h1>
+    <div class="panel panel-primary" ng-repeat="(key, value) in data.products">
+        <div class="panel-heading">
+            <span>{[value.name.zh]}</span>
+            <span class="btn btn-success col-md-offset-1"
+                  ng-click="setAddType(value.name.key)"
+                  data-toggle="modal" data-target="#addKind">
+                添加新款式
+            </span> ----------
+            <span class="btn btn-danger" ng-click="deleteType(value.name)"
+                  data-toggle="modal" data-target="#deleteType">
+                删除此类型
+            </span>
+        </div>
+        <div class="panel-body">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default" ng-repeat="kind in value.kinds">
+                    <div class="panel-heading" role="tab">
+                        <h4 class="panel-title">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" class="in"
+                               href="#{[value.name.key]}{[$index]}" aria-controls="collapse{[$index]}">
+                                {[kind.zh]}
+                            </a>
+                            <a class="col-sm-offset-1 btn btn-warning"
+                               data-toggle="modal" data-target="#add"
+                               ng-click="changeData('add', value.name.key, kind.key)">
+                                添加产品
+                            </a>————
+                            <a class="btn btn-danger" ng-click="setDeleteKind(value.name.key, kind)"
+                               data-toggle="modal" data-target="#deleteKind">
+                                删除此款式
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="{[value.name.key]}{[$index]}" class="panel-collapse collapse" role="tabpanel">
+                        <div class="panel-body">
+                            <div class="row">
+                                <h2 ng-if="value.details[kind.key].length == 0"
+                                    class="text-center text-danger">
+                                    该款式暂无产品
+                                </h2>
+                                <div class="col-sm-3 col-md-3" ng-repeat="detail in value.details[kind.key]">
+                                    <div class="thumbnail">
+                                        <img class="img-circle" ng-src="/{[detail.image]}" alt="图片列表">
+                                        <div class="caption">
+                                            <p>{[detail.type_zh]}</p>
+                                            <p>{[detail.kind_zh]}</p>
+                                            <p>{[detail.material_zh]}</p>
+                                            <p>{[detail.color_zh]}</p>
+                                            <p>{[detail.size_zh]}</p>
+                                            <p>{[detail.price]}</p>
+                                            <p>
+                                                <a class="btn btn-success"
+                                                   data-toggle="modal" data-target="#update"
+                                                   ng-click="changeData('update',
+                                                        value.name.key, kind.key, detail.id,
+                                                        detail.type_zh, detail.kind_zh, detail.material_zh,
+                                                        detail.color_zh, detail.size_zh, detail.price, detail.image, detail.otherImages)">修改
+                                                </a>
+                                                <a class="btn btn-info"
+                                                   ng-click="listTop(value.name.key, kind.key, $index)">置顶
+                                                </a>
+                                                <a href="{[postUrl]}" class="btn btn-danger"
+                                                   ng-click="changeData('delete',
+                                                   value.name.key, kind.key, detail.id, detail.image)">下架
+                                                </a>
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% include 'admin/products_manage_parts.html' %}

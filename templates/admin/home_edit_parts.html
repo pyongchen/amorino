@@ -1,0 +1,110 @@
+<div class="modal fade" id="first" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-info" id="myModalLabel">
+                    修改首页第一部分内容
+                </h3>
+            </div>
+            <div class="modal-body">
+                <form method='post' id="firstForm">
+                    <h4>更换固定图片:</h4>
+                    <div class="form-group">
+                        <input type="file" class="form-actions btn btn-warning" multiple
+                               content="选择图片" name="fix_img">
+                    </div>
+                    <h4>更换首页轮播图片:</h4>
+                    <div class="form-group">
+                        <input type="file" class="form-actions btn btn-warning" multiple
+                               content="选择图片" name="firstImages">
+                    </div>
+                    <div class="btn btn-danger form-control"
+                         data-dismiss="modal" aria-label="Close"
+                         ng-click="homeFirstChange()">
+                        提交修改
+                    </div>
+                </form>
+            </div>
+            <hr>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="second" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-info" id="myModalLabel">
+                    修改首页第二部分内容
+                </h3>
+            </div>
+            <div class="modal-body">
+                <form enctype="multipart/form-data" id="secondForm">
+                    <label>第一行:</label>`
+                    <input type="text" value="{[home.second.p1_zh]}"
+                           name="p1" class="form-control">
+                    <label>第二行:</label>
+                    <input type="text" value="{[home.second.p2_zh]}"
+                           name="p2" class="form-control">
+                    <label>第三行:</label>
+                    <input type="text" value="{[home.second.p3_zh]}"
+                           name="p3" class="form-control">
+                    <br>
+                    <h4>提交修改图片:</h4>
+                    <div class="form-group">
+                        <input type="file" name="img" class="form-actions btn btn-warning">
+                    </div>
+                    <button class="form-control glyphicon glyphicon-upload btn btn-danger"
+                            data-dismiss="modal" aria-label="Close"
+                            ng-click="homePartChange('second')"
+                            type="submit"> 提交修改
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="third" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-info" id="myModalLabel">
+                    修改首页第三部分内容
+                </h3>
+            </div>
+            <div class="modal-body">
+                <form method='post' enctype="multipart/form-data" id="thirdForm">
+                    <label>第一行:</label>`
+                    <input type="text" value="{[home.third.p1_zh]}"
+                           name="p1" class="form-control">
+                    <label>第二行:</label>
+                    <input type="text" value="{[home.third.p2_zh]}"
+                           name="p2" class="form-control">
+                    <label>第三行:</label>
+                    <input type="text" value="{[home.third.p3_zh]}"
+                           name="p3" class="form-control">
+                    <br>
+                    <h4>提交修改图片:</h4>
+                    <div class="form-group">
+                        <input type="file" name="img" class="form-actions btn btn-warning">
+                    </div>
+                    <button class="form-control glyphicon glyphicon-upload btn btn-danger"
+                            data-dismiss="modal" aria-label="Close"
+                            ng-click="homePartChange('third')"
+                            type="submit">提交修改
+                    </button>
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>

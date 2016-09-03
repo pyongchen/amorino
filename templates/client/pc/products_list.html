@@ -1,0 +1,47 @@
+{% extends 'client/pc/base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    <script type="text/javascript" src="{% static 'js/controllers/products_list_ctrl.js' %}"></script>
+    <div class="container" ng-controller="products_list_ctrl">
+        <div class="row">
+            <div class="col-md-3 bread-nav col-xs-12 col-sm-4">
+                <div class="intro-heading-bottom" style="top: 0%; left:0%;"></div>
+                <div class="category">
+                    <div class="color-box"></div>
+                    <div class="category-level-1" ng-repeat="(key, value) in data.products">
+                        <div class="category-title"
+                             ng-click="setType(value.name.key)"
+                             ng-class="{true:'active', false:'inactive'}
+                                [cur_type == value.name.key]">
+                            <span class="glyphicon"
+                                  ng-class="{true:'glyphicon-chevron-down',
+                                false:'glyphicon-chevron-right'}
+                                [cur_type == value.name.key && !repeat]"></span>
+                            <p>{[value.name[cur_lang]]}</p>
+                        </div>
+                        <div ng-repeat="kind in value.kinds"
+                             class="category-level-2"
+                             ng-class="{true:'active', false:'inactive'}
+                                [kind.key == cur_kind && cur_type == value.name.key]"
+                             ng-if="cur_type == value.name.key && !repeat"
+                             ng-click="getKind(value.name.key, kind.key)">
+                            {[kind[cur_lang]]}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="images-box col-md-9 col-sm-8">
+            	<div class="row">
+	                <div class="img_item col-md-4 col-sm-6 col-xs-12" ng-repeat="detail in details">
+    	                <a href="{[detail_url]}">
+    	                    <img ng-src="/{[detail.image]}" alt="img"
+    	                         ng-class="{true:'last-img', false:''}[$index == details.length - 1]"
+    	                         ng-click="setDetail(cur_type, cur_kind, $index)">
+    	                </a>
+    	            </div>
+    	        </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

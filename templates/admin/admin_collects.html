@@ -1,0 +1,38 @@
+{% load staticfiles %}
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab-pane fade"
+     role="tabpanel" id="collects">
+    <h1 class="page-header">
+        查看用户收藏
+    </h1>
+    <dir-pagination-controls
+            max-size="8"
+            direction-links="true"
+            boundary-links="true">
+    </dir-pagination-controls>
+    <div class="bs-component">
+        <table class="table table-striped table-hover">
+            <thead>
+            <tr>
+                <th>收藏时间</th>
+                <th>会员名</th>
+                <th>收藏数量</th>
+                <th>产品详情</th>
+                <th>客户备注</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr dir-paginate="collect in data.collects.admin|itemsPerPage:10">
+                <td>{[ collect.date ]}</td>
+                <td>{[ collect.member ]}</td>
+                <td>{[ collect.number ]}</td>
+                <td>{[collect.product['kind_zh']]},
+                    {[collect.product['color_zh']]},
+                    {[collect.product['size_zh']]},
+                    ¥{[collect.product['price']]}
+                </td>
+                <td>{[collect.message]}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

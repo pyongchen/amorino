@@ -1,0 +1,31 @@
+{% load staticfiles %}
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab-pane fade in active"
+     role="tabpanel" id="user">
+    <h1 class="page-header">
+        会员列表 <span class="info">{[info]}</span>
+    </h1>
+    <form action="/users_excel">
+        <button class="btn btn-success">导出数据到Excel</button>
+    </form>
+    <div class="table-responsive">
+        <table class="table table-striped">
+            <thead>
+            <tr>
+                <th>用户名</th>
+                <th>密码</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="user in users">
+                <td>{[ user.username ]}</td>
+                <td>{[ user.password ]}</td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <a class="btn btn-primary col-sm-offset-10" data-toggle="modal"
+       data-target="#add_member">添加会员</a>
+    <a class="btn btn-danger" data-toggle="modal"
+       data-target="#delete_member">删除会员</a>
+</div>
+{% include 'admin/user_action.html' %}

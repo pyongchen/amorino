@@ -1,0 +1,189 @@
+<div class="modal fade" id="update" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-info" id="myModalLabel">修改产品信息</h3>
+            </div>
+            <div class="modal-body">
+                <form method='post' action="{[postUrl]}" enctype="multipart/form-data">
+                    <label>款号:</label>
+                    <input type="text" name="p1" value="{[show_kind]}" class="form-control">
+                    <label>材料:</label>
+                    <input type="text" name="p2" value="{[show_material]}" class="form-control">
+                    <label>颜色:</label>
+                    <input type="text" name="p3" value="{[show_color]}" class="form-control">
+                    <label>尺寸:</label>
+                    <input type="text" name="p4" value="{[show_size]}" class="form-control">
+                    <label>价格(单位￥):</label>
+                    <input type="text" name="p5" value="{[show_price]}" class="form-control">
+                    <br>
+                    <div class="panel panel-default">
+                        <div class="panel-heading">修改展示图</div>
+                        <img ng-src="/{[show_image]}" class="col-lg-2 update_img"/>
+                        <input type="file" name="show_img"
+                            class="form-actions btn btn-warning col-lg-offset-3">
+                    </div>
+                    <div class="panel panel-danger">
+                        <div class="panel-heading">修改细节图</div>
+                        <img ng-repeat="img in otherImages"
+                             ng-src="/{[img]}" class="col-lg-2 update_img"/>
+                        <input type="file" name="detail_imgs" multiple
+                            class="form-actions btn btn-warning col-lg-offset-3">
+                    </div>
+                    <button class="form-control glyphicon glyphicon-upload
+                        btn btn-primary" type="submit">提交修改
+                    </button>
+                </form>
+            </div>
+            <hr>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="add" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-info" id="myModalLabel">添加产品信息</h3>
+            </div>
+            <div class="modal-body">
+                <form method='post' action="{[postUrl]}" enctype="multipart/form-data">
+                    <label>款号:</label>
+                    <input type="text" name="p1" class="form-control">
+                    <label>材料:</label>
+                    <input type="text" name="p2" class="form-control">
+                    <label>颜色:</label>
+                    <input type="text" name="p3" class="form-control">
+                    <label>尺寸:</label>
+                    <input type="text" name="p4" class="form-control">
+                    <label>价格(单位￥):</label>
+                    <input type="text" name="p5" class="form-control">
+                    <br>
+                    <div class="panel panel-success">
+                        <div class="panel-heading">添加展示图片(选择一张图片):</div>
+                        <input type="file" name="show_img"
+                            class="form-actions btn btn-warning col-lg-offset-3">
+                    </div>
+                    <div class="panel panel-info">
+                        <div class="panel-heading">添加细节图片(选择多张图片,供用户下载):</div>
+                        <input type="file" name="detail_imgs" multiple
+                            class="form-actions btn btn-warning col-lg-offset-3">
+                    </div>
+                    <button class="form-control glyphicon glyphicon-upload
+                        btn btn-primary" type="submit">提交新产品
+                    </button>
+                </form>
+            </div>
+            <hr>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="addKind" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-info" id="myModalLabel">新的款式信息</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>类型名（如：标志款）:</label>
+                    <input type="text" ng-model="add_kind" class="form-control">
+                    <br>
+                    <button class="form-control glyphicon glyphicon-upload
+                        btn btn-primary" ng-click="addKind()"
+                            data-dismiss="modal"
+                    >提交新产品
+                    </button>
+                </form>
+            </div>
+            <hr>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="deleteKind" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-info" id="myModalLabel">
+                    确定要删除此款式的所有信息？
+                </h3>
+            </div>
+            <div class="modal-body">
+                <button class="btn btn-success col-sm-offset-1"
+                        ng-click="isDeleteKind('yes')"
+                        data-dismiss="modal">确 定
+                </button>
+                <button class="btn btn-danger col-sm-offset-1"
+                        ng-click="isDeleteKind('no')"
+                        data-dismiss="modal">取 消
+                </button>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="addType" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-info" id="myModalLabel">新的类型信息</h3>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <label>类型名（如：太阳眼镜）:</label>
+                    <input type="text" ng-model="add_type" class="form-control">
+                    <br>
+                    <button class="form-control glyphicon glyphicon-upload
+                        btn btn-primary" ng-click="addType()"
+                            data-dismiss="modal">提交新类型
+                    </button>
+                </form>
+            </div>
+            <hr>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="deleteType" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title text-info" id="myModalLabel">
+                    确定要删除类型:<span class="text-danger">{[delete_type.zh]}</span>
+                    的所有信息？
+                </h3>
+            </div>
+            <div class="modal-body">
+                <button class="btn btn-success col-sm-offset-1"
+                        ng-click="isDeleteType('yes')"
+                        data-dismiss="modal">确 定
+                </button>
+                <button class="btn btn-danger col-sm-offset-1"
+                        ng-click="isDeleteType('no')"
+                        data-dismiss="modal">取 消
+                </button>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>

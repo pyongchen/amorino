@@ -1,0 +1,34 @@
+.products-item.ng-enter,
+.products-item.ng-leave,
+.products-item.ng-move {
+    overflow: hidden;
+    transition: 0.5s linear all;
+}
+
+.products-item.ng-enter,
+.products-item.ng-leave.ng-leave-active,
+.products-item.ng-move {
+    height: 0;
+    margin-bottom: 0;
+    opacity: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.products-item.ng-enter.ng-enter-active,
+.products-item.ng-leave,
+.products-item.ng-move.ng-move-active {
+    height: 120px;
+    margin-bottom: 20px;
+    opacity: 1;
+    padding-bottom: 4px;
+    padding-top: 15px;
+}
+
+.detail {
+    display: none;
+}
+
+.detail:first-child {
+    display: block;
+}

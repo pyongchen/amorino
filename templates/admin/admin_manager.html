@@ -1,0 +1,20 @@
+{% load staticfiles %}
+<div class="col-sm-9 col-sm-offset-3 col-md-10 col-md-offset-2 main tab-pane fade"
+     role="tabpanel" id="admin">
+    <h1 class="page-header">
+        修改管理员账号和密码
+    </h1>
+    <div class="modal-body">
+        <form action="/admin_change" enctype="multipart/form-data" method="post">
+            <label>用户名:</label>
+            <input type="text" name="username" value="{{ username }}" class="form-control">
+            <br>
+            <label>密码:</label>
+            <input type="text" name="password" value="{{ password }}" class="form-control">
+            <br>
+            <button class="form-control glyphicon
+                glyphicon-uploadbtn btn-primary">提交修改
+            </button>
+        </form>
+    </div>
+</div>

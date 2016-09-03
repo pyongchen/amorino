@@ -1,0 +1,52 @@
+<div class="modal fade" id="add_member" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel" >
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-info" id="myModalLabel">
+                    请输入要添加会员的账号名和密码
+                </h3>
+            </div>
+            <div class="modal-body" id="form">
+                <form method='post'>
+                    <input type="text" placeholder="账户名" name="username"
+                           class="form-control" id="add_username"><br>
+                    <input type="password" placeholder="密码" name="password"
+                           class="form-control" id="password"><br>
+                    <input class="form-control btn-primary" type="submit"
+                           ng-click="addUser()" data-dismiss="modal"
+                           value="添加" id="submit">
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="delete_member" tabindex="-1" role="dialog"
+     aria-labelledby="myModalLabel">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <h3 class="modal-title text-danger" id="myModalLabel">
+                    请输入要删除的会员的账号
+                </h3>
+            </div>
+            <div class="modal-body" id="form">
+                <form method='post'>
+                    <input type="text" placeholder="账户名" name="username"
+                           class="form-control" id="del_username"><br>
+                    <input class="form-control btn-danger" type="submit"
+                           ng-click="deleteUser()" data-dismiss="modal"
+                           value="删除" id="submit">
+                </form>
+            </div>
+            <div class="modal-footer"></div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,202 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1"/>
+    <title>{{ title }}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'bootstrap3/css/bootstrap.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/buttons.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/font-awesome.min.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/base.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/home.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/products.css' %}">
+    <link rel="stylesheet" type="text/css" href="{% static 'css/animation.css' %}">
+    <script type="text/javascript" src="{% static 'js/tools/jquery-3.0.0.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/tools/jquery.timer.js' %}"></script>
+    <script type="text/javascript" src="{% static 'angular/angular.js' %}"></script>
+    <script type="text/javascript" src="{% static 'angular/angular-route.js' %}"></script>
+    <script type="text/javascript" src="{% static 'angular/angular-animate.js' %}"></script>
+    <script type="text/javascript" src="{% static 'bootstrap3/js/bootstrap.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/app.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/animations.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/service/data.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/controllers/home_ctrl.js' %}"></script>
+</head>
+<body ng-app="glassApp" ng-controller="homeCtrl">
+<div class="container">
+    <div class="container ouliman-header">
+        <nav class="navbar navbar-default ouliman-nav">
+            <div class="container-fluid" style="">
+                <a class="home-nav" href="/home/">
+                    <h1>{[frame.nav]}</h1>
+                </a>
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav navbar-right ouliman-nav ">
+
+                        <li class="li" ng-class="{true: 'active', false: 'inactive'}[curPage == 'home']">
+                            <a class="lang" href="/home/">{[baseInfo.base.home[cur_lang]]}</a>
+                        </li>
+                        <li class="li" ng-class="{true: 'active', false: 'inactive'}[curPage == 'products']">
+                            <a class="lang" href="/products_list/">{[baseInfo.base.product[cur_lang]]}</a>
+                        </li>
+                        <li class="li" ng-if="username == undefined">
+                            <a class="lang" href="" ng-click="show_login()">{[baseInfo.base.login[cur_lang]]}</a>
+                        </li>
+                        <li class="li" ng-if="username">
+                            <a class="username" href="/collects">{[ username ]}</a>
+                            <a href="/logout" ng-click="logout()">{[baseInfo.base.logout[cur_lang]]}</a>
+                        </li>
+                        <li class="">
+                            <a href=""><span data-toggle="modal" data-target="#wait" class="langs"
+                                             ng-class="{true: 'btn-lang', false: ''}[cur_lang == 'zh']">中</span>|
+    		                <span data-toggle="modal" data-target="#wait" class="langs"
+                                  ng-class="{true: 'btn-lang', false: ''}[cur_lang == 'en']">En</span>|
+    		                <span data-toggle="modal" data-target="#wait" class="langs"
+                                  ng-class="{true: 'btn-lang', false: ''}[cur_lang == 'es']">Elespañol</span></a>
+                        </li>
+
+                        <li class="search">
+                            <a href="" data-toggle="modal" data-target="#alert-search">
+                                <span class="glyphicon glyphicon-search"></span>
+                            </a>
+                            <div class="modal fade" id="alert-search" tabindex="-1" role="dialog"
+                                 aria-labelledby="myModalLabel">
+                                <div class="panel-body col-md-9 col-md-offset-1" role="document">
+                                    <div class="panel panel-danger">
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                        <div class="panel-heading" role="tab">
+                                            <h3 class="modal-title text-info" id="myModalLabel">
+                                                请输入搜索信息:<input type="text" ng-model="Search">
+                                            </h3>
+                                        </div>
+                                        <div class="panel-body">
+                                            <a class="col-md-3" ng-repeat="detail in all | filter:Search"
+                                               href="{[detail_url]}">
+                                                <div class="thumbnail"
+                                                     ng-click="goToDetail(detail.type, detail.kind, detail.index)">
+                                                    <img class="img-box" ng-src="/{[detail.image]}" alt="图片列表">
+                                                    <div class="caption">
+                                                        <p>{[detail.type_zh]} {[detail.kind_zh]}
+                                                            {[detail.material_zh]} {[detail.color_zh]}
+                                                            {[detail.size_zh]} {[detail.price]}
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="row">
+        <div class="col-xs-12 col-md-offset-2 col-md-8">
+
+            <div id="login">
+                <div class="row">
+                    <div class="login_info col-xs-12 col-md-8">
+                        <h3 class="modal-title" id="myModalLabel">
+                            {[baseInfo.alert.info1[cur_lang]]}
+                        </h3>
+                        <h5>{[baseInfo.alert.info2[cur_lang]]}</h5>
+                        <div class="color-box">
+
+                        </div>
+                        <div class="modal-body" id="form">
+                            <form id="loginForm" enctype="multipart/form-data">
+                                <input type="text" placeholder="{[baseInfo.alert.username[cur_lang]]}" name="username"
+                                       class="form-control" id="username">
+                                <input type="password" placeholder="{[baseInfo.alert.password[cur_lang]]}"
+                                       name="password"
+                                       class="form-control" id="password">
+                                <p class="errInfo">{[info]}</p>
+                                <input type="submit" id="submit"
+                                       value="{[baseInfo.alert.login[cur_lang]]}                                     &rarr;"
+                                       ng-click="login()">
+                            </form>
+                        </div>
+                    </div>
+
+                    <div class="alert_login col-xs-12 col-md-4">
+                        <button type="button" class="close">
+                            <span class="glyphicon glyphicon-remove-circle"></span>
+                        </button>
+                        <img id="erweima_img" ng-src="/{[frame.image]}" alt="二维码"/>
+                        <p class="lang"> {[baseInfo.alert.sweep[cur_lang]]}</p>
+                        <div class="alert_contact">
+                            <p class="lang"> {[baseInfo.base.weChat[cur_lang]]}: {[frame.weChat]}</p>
+                            <p class="lang"> {[baseInfo.base.phone[cur_lang]]}: {[frame.phone]}</p>
+                            <p class="lang"> {[baseInfo.base.address[cur_lang]]}: {[frame['address_' + cur_lang]]}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {% block content %}
+
+    {% endblock %}
+</div>
+
+<div class="bottom">
+    <div class="container">
+        <div class="row">
+
+            <div class="col-xs-12 col-md-2">
+                <div class="erweima">
+                    `
+                    <div class="bottom-content">
+                        <img class="erweima_img" ng-src="/{[frame.image]}" alt="二维码"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-3">
+                <div class="contact">
+                    <div class="bottom-content">
+                        <div>
+                            <p class="lang"> {[baseInfo.base.weChat[cur_lang]]}: {[frame.weChat]}</p>
+                            <p class="lang"> {[baseInfo.base.phone[cur_lang]]}: {[frame.phone]}</p>
+                            <p class="lang"> {[baseInfo.base.address[cur_lang]]}: {[frame['address_' + cur_lang]]}</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-md-offset-3 col-md-4">
+                <div class="other">
+                    <div class="bottom-content">
+                        <div class="back-to-top">
+                            <div class="arrow_box">
+                                <a href="#"><img src="{% static 'img/up-arrow-inv.jpg' %}" alt=""></a>
+                            </div>
+                        </div>
+                        <p class="copy-right">{[frame.other]}</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

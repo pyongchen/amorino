@@ -1,0 +1,87 @@
+.collects {
+    width: 80%;
+    margin-bottom: 25%;
+}
+
+.head {
+    margin-top: -5%;
+}
+
+.img-box {
+    width: 30%;
+    height: 100%;
+}
+
+.img-box img {
+    width: 90% !important;
+    height: 25% !important;
+    margin-left: 12% !important;
+    margin-top: 12% !important;
+}
+
+.collect-item {
+    background-color: #efefef;
+    margin-bottom: 5%;
+    height: 400px;
+}
+
+.media-body {
+    background-color: #efefef;
+}
+
+.detail-text-box {
+    width: 58%;
+    height: 80%;
+}
+
+.info1 {
+    font-size: 1.6em;
+    margin-top: 18%;
+    margin-left: 5%;
+}
+
+.collects span {
+    font-size: 1.6em;
+    margin-left: 5%;
+}
+
+.info-box1 {
+    font-size: 1em;
+}
+
+.info-box2 {
+    margin-top: 1%;
+    font-size: 1em;
+}
+
+.btn-box {
+    font-size: 1.2em;
+    width: 80px;
+    height: 10%;
+    color: white;
+    text-align: center;
+    padding: 4% 0 4% 0;
+    margin-left: 0;
+    background-color: #8a8423;
+}
+
+.edit {
+    margin-top: 150%;
+}
+
+.delete {
+    margin-top: 20%;
+}
+
+.collects input {
+    background-color: #a3a3a3;
+}
+
+.message-box {
+    background-color: #a3a3a3;
+    width: 80%;
+}
+
+#message {
+    margin-top: 2%;
+}
