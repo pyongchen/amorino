@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>{{ title }}</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width">
     <meta name="viewport" content="user-scalable=no,initial-scale=1,maximum-scale=1"/>
@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="{% static 'css/mobile/mobilehome.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'css/mobile/mobilelogin.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'css/mobile/products.css' %}"/>
-    <link rel="stylesheet" type="text/css" href="{% static 'css/mobile/mobileperson.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'css/mobile/mobileperson.css' %}"/>
     <link rel="stylesheet" type="text/css" href="{% static 'css/mobile/mobileproduct.css' %}"/>
     <script type="text/javascript" src="{% static 'js/tools/jquery-3.0.0.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/tools/jquery.timer.js' %}"></script>
@@ -31,13 +31,44 @@
 </head>
 <body ng-app="glassApp" ng-controller="homeCtrl">
 <div class="mobile-header">
-    <span class="dropdown-toggle glyphicon glyphicon-search"> </span>
+    <span class="dropdown-toggle glyphicon glyphicon-search" data-toggle="modal" data-target="#alert-search""></span>
     <span class="dropdown-toggle glyphicon glyphicon-remove"> </span>
     <span class="dropdown-toggle glyphicon glyphicon-align-justify"> </span>
 
     <h1>Amorino</h1>
 </div>
-
+<div class="modal fade" id="alert-search" tabindex="-1" role="dialog"
+     style="margin-top: 20%"
+     aria-labelledby="myModalLabel">
+    <div class="panel-body col-md-9 col-md-offset-1" role="document">
+        <div class="panel panel-danger">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            <div class="panel-heading" role="tab">
+                <h3 class="modal-title text-info" id="myModalLabel">
+                    {[baseInfo.search[cur_lang]]}:
+                    <input type="text" ng-model="Search" style="width: 300px; height: 30px">
+                </h3>
+            </div>
+            <div class="panel-body">
+                <a class="col-md-3" ng-repeat="detail in all | filter:Search"
+                   href="{[detail_url]}">
+                    <div class="thumbnail"
+                         ng-click="goToDetail(detail.type, detail.kind, detail.index)">
+                        <img class="img-box" ng-src="/{[detail.image]}" alt="图片列表">
+                        <div class="caption">
+                            <p>{[detail.type_zh]} {[detail.kind_zh]}
+                                {[detail.material_zh]} {[detail.color_zh]}
+                                {[detail.size_zh]} {[detail.price]}
+                            </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
 <div class="mobile-menu">
     <ul>
         <li class="mobile-menu-btn" ng-repeat="(key, value) in data.products">

@@ -152,28 +152,9 @@ def admin_home_manage(request, part):
                         content_type="application/json")
 
 
-def admin_text_edit(request, param1, param2):
-    if param1 == 'home':
-        adminEditManager.edit_home_text(request, param2)
-    else:
-        pass
-    return render_to_response('admin/admin.html', responseDataManager.get_data(
-        request.COOKIES['admin_username'], '修改成功'))
-
-
-def admin_image_edit(request, p1, p2):
-    if p1 == 'home':
-        adminEditManager.edit_home_img(request, p2)
-    else:
-        pass
-    return render_to_response('admin/admin.html', responseDataManager.get_data(
-        request.COOKIES['admin_username'], ''))
-
-
 def admin_products_change(request, p1, p2, p3, p4, p5):
     adminEditManager.edit_products(request, str(p1), str(p2), str(p3), str(p4), str(p5))
-    return render_to_response('admin/admin.html', responseDataManager.get_data(
-        request.session['admin_username'], ''))
+    return render_to_response('admin/admin.html', loginManager.get_admin(''))
 
 
 def admin_products_kind_delete(request):

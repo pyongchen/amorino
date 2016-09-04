@@ -4,6 +4,9 @@
 {% block content %}
     <script type="text/javascript" src="{% static 'js/controllers/products_list_ctrl.js' %}"></script>
     <div class="container" ng-controller="products_list_ctrl">
+        <div ng-if="isEmptyObject(data.products)" id="noPro">
+            {[baseInfo.no[cur_lang]]}
+        </div>
         <div class="row">
             <div class="col-md-3 bread-nav col-xs-12 col-sm-4">
                 <div class="intro-heading-bottom" style="top: 0%; left:0%;"></div>

@@ -78,7 +78,7 @@ class LoginManager(object):
         if self.result['success'] == '':
             return render_to_response('client/mobile/login.html', {
                 'title': '登录',
-                'info': self.result['fail']
+                'info': self.result['fail'][request.POST['lang']]
             })
         else:
             return render_to_response('client/mobile/homepage.html', {

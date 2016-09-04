@@ -77,5 +77,15 @@
       "en": "The User has Logout",
       "es": "Este usuario se ha retirado"
     }
+  },
+  "search": {
+    "zh": "搜索",
+    "en": "Search",
+    "es": "La búsqueda"
+  },
+  "no": {
+    "zh": "暂无产品",
+    "en": "No Product",
+    "es": "No productos"
   }
 }

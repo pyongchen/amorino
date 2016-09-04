@@ -174,6 +174,7 @@ angular.module('admin', ['angularUtils.directives.dirPagination'])
 
         $scope.deleteType = function (typeName) {
             $scope.delete_type = typeName;
+            console.log(typeName);
         };
 
         $scope.isDeleteType = function (info) {
@@ -188,7 +189,7 @@ angular.module('admin', ['angularUtils.directives.dirPagination'])
                 };
                 $http(req).then(function (response) {
                     $scope.data = response.data;
-                    $scope.info = "类型:" + $scope.delete_type.Chinese + "已下架";
+                    $scope.info = "类型:" + $scope.delete_type.zh + "已下架";
                 });
             } else {
                 $scope.info = '';

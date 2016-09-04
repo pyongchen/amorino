@@ -37,7 +37,7 @@ angular.module('glassApp')
             } else {
                 $('#login').css('z-index', 99999);
                 $('#login').fadeIn('slow');
-                $scope.detail_url = '#'
+                $scope.detail_url = '/login_page'
             }
         };
         

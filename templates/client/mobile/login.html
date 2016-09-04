@@ -17,7 +17,9 @@
                        class="form-control" id="username"/>
                 <input type="password" placeholder="{[baseInfo.alert.password[cur_lang]]}" name="password"
                        class="form-control" id="password"/>
-                <p class="errInfo">{{ info.zh }}</p>
+                <input type="text" name="lang" value="{[cur_lang]}"
+                       class="form-control" style="opacity: 0   ; position: absolute; top: -100px;"/>
+                <p class="errInfo">{{ info }}</p>
                 <input type="submit" id="submit"
                        value="{[baseInfo.alert.login[cur_lang]]}"/>
             </form>

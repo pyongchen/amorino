@@ -16,12 +16,15 @@ angular.module('glassApp')
             $scope.num = details.length;
             $scope.details = details;
         } else {
-            var first_kind = $scope.type1.kinds[0].key;
-            var first_detail = $scope.type1.details[first_kind];
-            $scope.num = first_detail.length;
-            $scope.details = first_detail;
-            $scope.cur_type = $scope.type1.name.key;
-            $scope.cur_kind = first_kind;
+            if ($scope.type1 != null && $scope.type1.kinds.length != 0) {
+                var first_kind = $scope.type1.kinds[0].key;
+                var first_detail = $scope.type1.details[first_kind];
+                $scope.num = first_detail.length;
+                $scope.details = first_detail;
+                $scope.cur_type = $scope.type1.name.key;
+                $scope.cur_kind = first_kind;
+            }
+
         }
 
         $scope.getKind = function (type, kind) {
@@ -72,13 +75,22 @@ angular.module('glassApp')
             $scope.cur_kind = $scope.data.products[type].kinds[0].key;
             $scope.details = $scope.data.products[type].details[$scope.cur_kind];
         };
+        $scope.isEmptyObject = isEmptyObject;
     });
 
 function getType($scope, data) {
     var index = 1;
+    $scope['type1'] = null;
     for (var obj in $scope.data.products) {
         $scope['type' + index] = data[obj];
         index++;
     }
+}
+
+function isEmptyObject(o){
+    for(var n in o){
+        return false;
+    }
+    return true;
 }
 

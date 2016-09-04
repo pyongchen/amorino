@@ -21,18 +21,6 @@ class HomeManager(object):
 
     def update_first(self, files):
         data = jsonManager.read_json(self.home_path)
-        img = files.getlist('fix_img')
-        if len(img) != 0:
-            img_path = self.img_path + 'fix'
-            shutil.rmtree(img_path)
-            os.mkdir(img_path)
-            f = files['fix_img']
-            data['first']['fix_img'] = img_path + '/' + str(f)
-            new_file = img_path + '/' + str(f)
-            destination = open(new_file, 'wb+')
-            for chunk in f.chunks():
-                destination.write(chunk)
-            destination.close()
         imgs = files.getlist('firstImages')
         if len(imgs) != 0:
             shutil.rmtree(self.first_img_path)

@@ -13,7 +13,10 @@ Including another URLconf
     1. Import the include() function: from django.conf.urls import url, include
     2. Add a URL to urlpatterns:  url(r'^blog/', include('blog.urls'))
 """
+import os
 from django.conf.urls import url
+from django.conf import settings
+from django.conf.urls.static import static
 from myApp import views as my_app_views
 
 urlpatterns = [
@@ -35,8 +38,6 @@ urlpatterns = [
     url(r'^admin/frame', my_app_views.admin_frame, name='bottom'),
     url(r'^admin/listTop', my_app_views.admin_list_top, name='listTop'),
     url(r'^admin/delete_member/', my_app_views.admin_delete_member, name='delete_member'),
-    url(r'^admin/text_edit/(.+)/(.+)', my_app_views.admin_text_edit, name='text_edit'),
-    url(r'^admin/img_edit/(.+)/(.+)', my_app_views.admin_image_edit, name='image_edit'),
     url(r'^admin/products/(.+)/(.+)/(.+)/(.+)/(.+)', my_app_views.admin_products_change, name='products_change'),
     url(r'^admin/products_type_add', my_app_views.admin_products_type_add, name='add_type'),
     url(r'^admin/products_type_delete', my_app_views.admin_products_type_delete, name='delete_type'),
@@ -45,4 +46,5 @@ urlpatterns = [
     url(r'^admin/', my_app_views.admin, name='admin'),
     url(r'^users_excel/', my_app_views.users_excel, name='admin'),
     url(r'^$', my_app_views.home),
-]
+] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+

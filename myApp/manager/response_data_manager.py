@@ -56,6 +56,7 @@ class ResponseDataManager(object):
     def products_data(self):
         self.type_name = []
         self.get_type_path()
+        self.data['products'] = {}
         for name in self.type_name:
             path = 'static/data/' + name + '.json'
             js = open(path, "r")
