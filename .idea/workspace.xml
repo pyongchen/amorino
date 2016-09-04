@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ad575d-597d-43f2-8f33-107157488fe7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/Glasses.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Bridge_section/Bridge_section_eomuhowpvz/11.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Bridge_section/Bridge_section_eomuhowpvz/12.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Bridge_section/Bridge_section_eomuhowpvz/13.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Bridge_section/Bridge_section_eomuhowpvz/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Bridge_section/Bridge_section_eomuhowpvz/fix_img.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_bmzeeijeyg/4.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_bmzeeijeyg/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_bmzeeijeyg/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_bmzeeijeyg/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_nffznnhbgv/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_nffznnhbgv/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_nffznnhbgv/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_verrnrbezc/10.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_verrnrbezc/11.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_verrnrbezc/12.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_verrnrbezc/4.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_verrnrbezc/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_verrnrbezc/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_verrnrbezc/9.pic.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glasses_project/settings.py" afterPath="$PROJECT_DIR$/glasses_project/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/products_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/products_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/Sunglasses.json" afterPath="$PROJECT_DIR$/static/data/Sunglasses.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/type.json" afterPath="$PROJECT_DIR$/static/data/type.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/controllers/admin_ctrl.js" afterPath="$PROJECT_DIR$/static/js/controllers/admin_ctrl.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/client/mobile/base.html" afterPath="$PROJECT_DIR$/templates/client/mobile/base.html" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -85,16 +60,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="response_data_manager.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/myApp/manager/response_data_manager.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="436">
-              <caret line="58" column="34" selection-start-line="58" selection-start-column="34" selection-end-line="58" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="products_list.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/client/mobile/products_list.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -137,11 +102,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="products_manager.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="products_manager.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/myApp/manager/products_manager.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+            <state relative-caret-position="213">
+              <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/templates/client/mobile/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -210,7 +185,6 @@
         <option value="$PROJECT_DIR$/static/js/controllers/collects_ctrl.js" />
         <option value="$PROJECT_DIR$/wsgi.py" />
         <option value="$PROJECT_DIR$/static/js/controllers/home_ctrl.js" />
-        <option value="$PROJECT_DIR$/templates/client/mobile/base.html" />
         <option value="$PROJECT_DIR$/myApp/manager/login_manager.py" />
         <option value="$PROJECT_DIR$/templates/client/mobile/login.html" />
         <option value="$PROJECT_DIR$/templates/admin/home_edit_parts.html" />
@@ -234,6 +208,7 @@
         <option value="$PROJECT_DIR$/static/data/Sunglasses.json" />
         <option value="$PROJECT_DIR$/static/js/controllers/admin_ctrl.js" />
         <option value="$PROJECT_DIR$/myApp/manager/products_manager.py" />
+        <option value="$PROJECT_DIR$/templates/client/mobile/base.html" />
       </list>
     </option>
   </component>
@@ -924,7 +899,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21736011" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -934,7 +909,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962328" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30828026" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30828026" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -1039,14 +1014,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/client/mobile/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1348,8 +1315,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/myApp/manager/products_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="97" column="23" selection-start-line="97" selection-start-column="23" selection-end-line="97" selection-end-column="23" />
+        <state relative-caret-position="213">
+          <caret line="103" column="12" selection-start-line="103" selection-start-column="12" selection-end-line="103" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/client/mobile/base.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
