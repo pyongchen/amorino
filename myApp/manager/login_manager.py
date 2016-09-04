@@ -11,11 +11,6 @@ class LoginManager(object):
         self.admin_path = 'static/data/admin.json'
         self.users = []
         self.info = {
-            'multiUser': {
-                'zh': '此用户已经登录',
-                'en': 'The User has login',
-                'es': 'Este usuario ha firmado'
-            },
             'errPass': {
                 'zh': '密码不正确,请重新输入',
                 'en': 'Password incorrect, please enter again',
@@ -56,14 +51,10 @@ class LoginManager(object):
             password = ''
         if memberManager.exist(username) != 0:
             if memberManager.valid(username, password) == 1:
-                if self.has_login(username) == 0:
-                    self.users.append(username)
-                    request.session['username'] = username
-                    self.result['success'] = username
-                    self.result['fail'] = ''
-                else:
-                    self.result['fail'] = self.info['multiUser']
-                    self.result['success'] = ''
+                self.users.append(username)
+                request.session['username'] = username
+                self.result['success'] = username
+                self.result['fail'] = ''
             else:
                 self.result['fail'] = self.info['errPass']
                 self.result['success'] = ''

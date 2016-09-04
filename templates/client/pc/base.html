@@ -82,9 +82,9 @@
                                             </h3>
                                         </div>
                                         <div class="panel-body">
-                                            <a class="col-md-3" ng-repeat="detail in all | filter:Search"
+                                            <a class="col-md-4" ng-repeat="detail in all | filter:Search"
                                                href="{[detail_url]}">
-                                                <div class="thumbnail"
+                                                <div class="thumbnail" style="width: 300px; height: 350px"
                                                      ng-click="goToDetail(detail.type, detail.kind, detail.index)">
                                                     <img class="img-box" ng-src="/{[detail.image]}" alt="图片列表">
                                                     <div class="caption">
