@@ -96,7 +96,7 @@ class ProductsManager(object):
         newkind['es'] = kind_es
         newkind['zh'] = kind_zh
         newkind['key'] = kind_key
-        newkind['es'] = kind_en
+        newkind['en'] = kind_en
         data['kinds'].append(newkind)
         data['details'][kind_key] = []
         self.write_json(products_data_path, data)

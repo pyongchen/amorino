@@ -24,9 +24,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '440j9tvq67#6(wv#(!lh7t9yjs@0%j16x^t*k&3pvv0i399w-y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['localhost', 'www.topfashion.cn.com']
+# ALLOWED_HOSTS = ['localhost', 'www.topfashion.cn.com']
+ALLOWED_HOSTS = []
 
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',

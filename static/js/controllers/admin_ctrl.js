@@ -117,7 +117,7 @@ angular.module('admin', ['angularUtils.directives.dirPagination'])
             if (info == 'yes') {
                 $http(req).then(function (response) {
                     $scope.data = response.data;
-                    $scope.info = "类型:" + $scope.deleteKind.Chinese + "已下架"
+                    $scope.info = "类型:" + $scope.deleteKind.zh + "已下架"
                 });
             } else {
                 $scope.info = '';
