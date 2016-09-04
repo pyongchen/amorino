@@ -28,40 +28,35 @@
                                 <span ng-if="collect.status == 'edit'"
                                       style="font-size: 1em; margin: 0">{[collect.number]}</span>
                             </span>
-                            <input ng-if="collect.status == 'confirm'" class="number-box" value="{[collect.number]}">
+                            <input ng-if="collect.status == 'confirm'"
+                                   style="width: 150px;"
+                                   class="number-box" value="{[collect.number]}">
                         </div>
                     </div>
                     <div class="col-xs-12 mobile-collect-com">
-                        <span id="note">{[infos.message[cur_lang]]}:</span>
+                        <span class="note">{[infos.message[cur_lang]]}:</span>
                             <span ng-if="collect.status == 'edit'"
                                   style="font-size: 1em; margin: 0">{[collect.message]}</span>
                         <textarea ng-if="collect.status == 'confirm'" class="message-box"
+                                  style="margin-left: 10%"
                                   rows="5" cols="30">
                             {[collect.message]}
                         </textarea>
                     </div>
-                    <div class="modal fade" id="delete" tabindex="-1" role="dialog"
-                         aria-labelledby="myModalLabel" style="margin-top: 20%">
-                        <div class="modal-dialog modal-lg" role="document">
-                            <div class="modal-content">
-                                <div class="modal-header">
-                                    <h3 class="modal-title text-info" id="myModalLabel">
-                                        {[infos.alert.makeSure[cur_lang]]}
-                                    </h3>
-                                </div>
-                                <div class="modal-body">
-                                    <button class="btn btn-success col-sm-offset-1"
-                                            ng-click="submitDelete()"
-                                            data-dismiss="modal">{[infos.alert.yes[cur_lang]]}
-                                    </button>
-                                    <button class="btn btn-danger col-sm-offset-1"
-                                            data-dismiss="modal">{[infos.alert.no[cur_lang]]}
-                                    </button>
-                                </div>
-                                <div class="modal-footer"></div>
-                            </div>
-                        </div>
-                    </div>
+                </div>
+            </div>
+            <div class="del-box" id="delete" style="margin-top: 20% ">
+                <h3 class="modal-title text-info" id="myModalLabel">
+                    {[infos.alert.makeSure[cur_lang]]}
+                </h3>
+                <div class="modal-body">
+                    <button class="btn btn-success col-sm-offset-3" data-dismiss="modal"
+                            ng-click="submitDelete()"
+                            >{[infos.alert.yes[cur_lang]]}
+                    </button>
+                    <button class="btn btn-danger col-sm-offset-1" data-dismiss="modal"
+                            ng-click="noDelete()">{[infos.alert.no[cur_lang]]}
+                    </button>
                 </div>
             </div>
         </div>

@@ -206,6 +206,7 @@
     margin-left: 4%;
 }
 
+
 .collect_info button {
     background-color: rgb(190,162,105);
     margin-top: 4%;
@@ -216,4 +217,25 @@
 .collect_info .errInfo {
     left: -15%;
     margin-top: 0;
+}
+
+.del-box {
+    top: 20px;
+    width: 400px;
+    height: 100px;
+    left: 20%;
+    position: absolute;
+    border: 4px solid #ff0c0c;
+    border-radius: 20px;
+    background-color: #fbef9f;
+    display: none;
+    z-index: 99999;
+}
+
+.del-box h3 {
+    text-align: center;
+}
+
+.del-box button {
+    text-align: center;
 }

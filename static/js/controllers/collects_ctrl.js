@@ -12,6 +12,7 @@ angular.module('glassApp')
         };
 
         $scope.setDeleteInfo = function (id) {
+            $('.del-box').fadeIn();
             $scope.id = id;
         };
 
@@ -42,14 +43,20 @@ angular.module('glassApp')
             };
             $http(req).then(function (response) {
                 $scope.collects = response.data.user;
-            })
+            });
+            $('.del-box').fadeOut('slow');
         };
-
+    
+        $scope.noDelete = function () {
+            $('.del-box').fadeOut('slow');
+        };
+        
         $scope.btnClick = function (index, id) {
             if ($scope.collects[index].status == 'edit') {
                 $scope.collects[index].status = 'confirm';
+                console.log($('.note'));
                 $('.detail-text-box input').css('background-color', '#8c8c8c');
-                $('#note').css('position', 'absolute');
+                $('.note').eq(index).css('position', 'absolute');
                 $('.mobile-collect-com textarea').css('margin-left', '10px');
             } else {
                 var number = $('.number-box').val();
