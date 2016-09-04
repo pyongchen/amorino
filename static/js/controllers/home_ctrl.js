@@ -84,7 +84,12 @@ angular.module('glassApp')
             $scope.username = null;
             $scope.password = '';
         };
-
+            
+        $scope.getKind = function (type, kind) {
+            sessionStorage.setItem('type', type);
+            sessionStorage.setItem('kind', kind);
+        };
+        
         $('.langs').each(function (index) {
             var lang = ['zh', 'en', 'es'];
             $(this).click(function () {
