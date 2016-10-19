@@ -1,19 +1,21 @@
 # coding=utf-8
-import re
+import random
+import httplib
 import urllib
-import urllib2
-
+import json
+import md5
 
 class Translator(object):
     def __init__(self):
-        self.url = 'http://translate.google.cn/'
-        self.browser = 'Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.1; SV1; .NET CLR 2.0.50727)'
+        self.appid = '20161019000030439'
+        self.secretKey = 'fa6A4Fv26nktaLCwVZR1'
+        self.myurl = '/api/trans/vip/translate'
         self.langTable = {
             'zh': 'zh-CN',
             'en': 'en',
-            'es': 'es'
+            'spa': 'spa'
         }
-        self.lang = ['zh', 'en', 'es']
+        self.lang = ['zh', 'en', 'spa']
         self.trans_list = [
             'kind', 'material', 'color', 'size', 'price'
         ]
@@ -30,22 +32,27 @@ class Translator(object):
         }
 
     def translate(self, text, lang_from, lang_to):
+        text = str(text)
         self.set_value(text, lang_from, lang_to)
-        data = urllib.urlencode(self.values)
+        salt = random.randint(32768, 65536)
+        sign = self.appid + text + str(salt) + self.secretKey
+        m1 = md5.new()
+        m1.update(sign)
+        sign = m1.hexdigest()
+        self.myurl = self.myurl + '?appid=' + self.appid + '&q=' + urllib.quote(
+            text) + '&from=' + str(lang_from) + '&to=' + str(lang_to) + '&salt=' + str(
+            salt) + '&sign=' + str(sign)
         try:
-            req = urllib2.Request(self.url, data)
-            req.add_header('User-Agent', self.browser)
-            response = urllib2.urlopen(req)
-        except urllib2.URLError:
-            print '翻译请求出问题,请等待'
-        else:
-            html = response.read()
-            p = re.compile(r"(?<=TRANSLATED_TEXT=).*?;")
-            m = p.search(html)
-            result = m.group(0).strip(';')
-            r = re.search(r"'(.*)'", result)
-            return r.group(1)
-        return ''
+            httpClient = httplib.HTTPConnection('api.fanyi.baidu.com')
+            httpClient.request('GET', self.myurl)
+
+            # response是HTTPResponse对象
+            response = httpClient.getresponse()
+            result = response.read()
+            print result
+            return json.loads(result)['trans_result'][0]['dst']
+        except Exception, e:
+            return e
 
     def change_data(self, kind, zh_data):
         trans_info = ""
@@ -55,10 +62,10 @@ class Translator(object):
         trans_info = trans_info[0:len(trans_info)-1]
         ens_trans = self.translate(trans_info, 'zh', 'en')
         ens = ens_trans.split(' / ')
-        ess_trans = self.translate(trans_info, 'zh', 'es')
+        ess_trans = self.translate(trans_info, 'zh', 'spa')
         ess = ess_trans.split(' / ')
         print ens
-        langs = {'zh': zh_data, 'es': ess, 'en': ens}
+        langs = {'zh': zh_data, 'spa': ess, 'en': ens}
         i = 0
         for info in self.trans_list:
             if info == 'price':
@@ -70,7 +77,7 @@ class Translator(object):
 
 
 translator = Translator()
-# text = "以科学的精度衡量优雅"
-# r = translator.translate(text, 'zh', 'en')
-# print r
+text = "光学眼镜"
+r = translator.translate(text, 'zh', 'en')
+print r
 # print r.split(' / ')

@@ -43,7 +43,7 @@ class AdminEditManager(object):
 
     def add_products_kind(self, type_, kind_zh):
         kind_en = translator.translate(kind_zh, 'zh', 'en')
-        kind_es = translator.translate(kind_zh, 'zh', 'es')
+        kind_es = translator.translate(kind_zh, 'zh', 'spa')
         kind_key = kind_en.replace(' ', '_')
         new_path = 'static/' + self.img_base_path + type_ + \
                    '/' + kind_key
@@ -57,7 +57,7 @@ class AdminEditManager(object):
 
     def add_products_type(self, type_):
         type_en = translator.translate(type_, 'zh', 'en')
-        type_es = translator.translate(type_, 'zh', 'es')
+        type_es = translator.translate(type_, 'zh', 'spa')
         key = type_en.replace(' ', '_')
         new_path = 'static/' + self.img_base_path + key
         os.mkdir(new_path)
