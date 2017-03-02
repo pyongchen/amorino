@@ -55,29 +55,41 @@ class Translator(object):
             return e
 
     def change_data(self, kind, zh_data):
-        trans_info = ""
-        for text in zh_data:
-            text_ = '/' + text
-            trans_info += text_
-        trans_info = trans_info[0:len(trans_info)-1]
-        ens_trans = self.translate(trans_info, 'zh', 'en')
-        ens = ens_trans.split(' / ')
-        ess_trans = self.translate(trans_info, 'zh', 'spa')
-        ess = ess_trans.split(' / ')
-        print ens
-        langs = {'zh': zh_data, 'spa': ess, 'en': ens}
         i = 0
-        for info in self.trans_list:
+        for text in zh_data:
+            if not text or text == ' ':
+                text = '无'
+            info = self.trans_list[i]
             if info == 'price':
-                kind[info] = zh_data[i]
+                kind['price'] = text
             else:
-                for lang in self.lang:
-                    kind[info + '_' + lang] = langs[lang][i]
+                text_en = self.translate(text, 'zh', 'en')
+                text_es = self.translate(text, 'zh', 'spa')
+                kind[info + '_' + 'zh'] = text
+                kind[info + '_' + 'es'] = text_es
+                kind[info + '_' + 'en'] = text_en
             i += 1
+        # trans_info = trans_info[0:len(trans_info)-1]
+        # ens_trans = self.translate(trans_info, 'zh', 'en')
+        # ens = ens_trans.split(' / ')
+        # ess_trans = self.translate(trans_info, 'zh', 'spa')
+        # ess = ess_trans.split(' / ')
+        # print ens
+        # langs = {'zh': zh_data, 'spa': ess, 'en': ens}
+        # i = 0
+        # for info in self.trans_list:
+        #     if info == 'price':
+        #         kind[info] = zh_data[i]
+        #     else:
+        #         for lang in self.lang:
+        #             if lang == 'spa':
+        #                 kind[info + '_' + 'es'] = langs[lang][i]
+        #             kind[info + '_' + lang] = langs[lang][i]
+        #     i += 1
 
 
 translator = Translator()
 text = "光学眼镜"
-r = translator.translate(text, 'zh', 'en')
+r = translator.translate('   ', 'zh', 'en')
 print r
 # print r.split(' / ')

@@ -56,6 +56,6 @@ class HomeManager(object):
         for p in self.parts:
             data[part][p + '_zh'] = post[p]
             data[part][p + '_en'] = translator.translate(post[p], 'zh', 'en')
-            data[part][p + '_es'] = translator.translate(post[p], 'zh', 'es')
+            data[part][p + '_es'] = translator.translate(post[p], 'zh', 'spa')
 
 homeManager = HomeManager()

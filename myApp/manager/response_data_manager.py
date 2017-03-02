@@ -59,6 +59,7 @@ class ResponseDataManager(object):
         self.data['products'] = {}
         for name in self.type_name:
             path = 'static/data/' + name + '.json'
+            print path
             js = open(path, "r")
             data_ = json.load(js)
             js.close()

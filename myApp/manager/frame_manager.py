@@ -26,7 +26,7 @@ class FrameManager(object):
         data['nav'] = nav
         data['address_zh'] = address_zh
         en = translator.translate(address_zh, 'zh', 'en')
-        es = translator.translate(address_zh, 'zh', 'es')
+        es = translator.translate(address_zh, 'zh', 'spa')
         files = request.FILES
         img = files.getlist('bottom_img')
         if len(img) != 0:

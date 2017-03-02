@@ -24,14 +24,21 @@ class AdminEditManager(object):
         data = []
         if operate == 'update':
             for i in range(0, 5):
-                data.append(request.POST['p' + str(i + 1)])
+                if not request.POST['p' + str(i + 1)]:
+                    data.append('无')
+                else:
+                    data.append(request.POST['p' + str(i + 1)])
             images = self.uploaded_files(type_, kind, id_, request.FILES, 'update', old_img)
             productManager.update_products_data(type_, kind, id_, data)
             productManager.change_images('update', type_, kind, images, id_)
         elif operate == 'add':
             for i in range(0, 5):
-                data.append(request.POST['p' + str(i + 1)])
+                if not request.POST['p' + str(i + 1)]:
+                    data.append('无')
+                else:
+                    data.append(request.POST['p' + str(i + 1)])
             id_ = self.create_id()
+            print data
             productManager.add_products_data(type_, kind, data, id_)
             images = self.uploaded_files(type_, kind, id_, request.FILES, 'add', '')
             productManager.change_images('add', type_, kind, images, '')

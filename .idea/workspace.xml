@@ -2,251 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ad575d-597d-43f2-8f33-107157488fe7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/Glasses.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/1.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/11.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/2.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/3.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/4.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_iutlnlveci/9.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_mtpdscaipx/11.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_mtpdscaipx/3.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_mtpdscaipx/4.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_mtpdscaipx/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_mtpdscaipx/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_mtpdscaipx/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_tjbjyrtmsg/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_tjbjyrtmsg/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_tjbjyrtmsg/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Glasses/Paragraph_mark/Paragraph_mark_tjbjyrtmsg/8.pic.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.ids" afterPath="$PROJECT_DIR$/.idea/dataSources.ids" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/phone.png" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/Optical_glasses.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/Sunglasses.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/10.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/11.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/2.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/6.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/7.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/8.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/9.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/5.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/6.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/7.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/8.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/9.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/12.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/2.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/3.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/4.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/5.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/6.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/7.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/8.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/1.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/4.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/5.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/6.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/7.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/10.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/11.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/12.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/13.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/3.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/7.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/8.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/9.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/1.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/2.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/3.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/4.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/5.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/8.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/10.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/4.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/5.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/6.pic.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/7.pic.jpg" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/1.pic.jpg" afterPath="$PROJECT_DIR$/images/1.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/2.pic.jpg" afterPath="$PROJECT_DIR$/images/2.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/3.pic.jpg" afterPath="$PROJECT_DIR$/images/3.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/images/4.pic.jpg" afterPath="$PROJECT_DIR$/images/4.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Bold-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Light-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" afterPath="$PROJECT_DIR$/static/admin/fonts/Roboto-Regular-webfont.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.eot" afterPath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.eot" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.ttf" afterPath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.ttf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.woff" afterPath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.woff" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.woff2" afterPath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.woff2" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/frame/oumanli.png" afterPath="$PROJECT_DIR$/static/img/frame/oumanli.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/home/fix/7.pic.jpg" afterPath="$PROJECT_DIR$/static/img/home/fix/7.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/home/second/10.pic.jpg" afterPath="$PROJECT_DIR$/static/img/home/second/10.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/home/third/13.pic.jpg" afterPath="$PROJECT_DIR$/static/img/home/third/13.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/home/turns/6.pic.jpg" afterPath="$PROJECT_DIR$/static/img/home/turns/6.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/home/turns/7.pic.jpg" afterPath="$PROJECT_DIR$/static/img/home/turns/7.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/home/turns/8.pic.jpg" afterPath="$PROJECT_DIR$/static/img/home/turns/8.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/5.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/5.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/6.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/6.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/7.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/7.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/8.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/8.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/9.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/9.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/12.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/12.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/2.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/2.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/3.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/3.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/4.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/4.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/5.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/5.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/6.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/6.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/7.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/7.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/8.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/8.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/1.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/1.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/4.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/4.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/5.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/5.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/6.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/6.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/7.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/7.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/10.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/10.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/11.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/11.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/12.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/12.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/13.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/13.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/3.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/3.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/7.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/7.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/8.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/8.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/9.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/9.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/1.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/1.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/2.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/2.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/3.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/3.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/4.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/4.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/5.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/5.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/8.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/8.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/10.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/10.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/4.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/4.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/5.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/5.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/6.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/6.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/7.pic.jpg" afterPath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/7.pic.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/img/up-arrow-inv.jpg" afterPath="$PROJECT_DIR$/static/img/up-arrow-inv.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/code.iml" afterPath="$PROJECT_DIR$/.idea/code.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Django_Lib.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glasses_project/__init__.py" afterPath="$PROJECT_DIR$/glasses_project/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glasses_project/settings.py" afterPath="$PROJECT_DIR$/glasses_project/settings.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glasses_project/urls.py" afterPath="$PROJECT_DIR$/glasses_project/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/glasses_project/wsgi.py" afterPath="$PROJECT_DIR$/glasses_project/wsgi.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/__init__.py" afterPath="$PROJECT_DIR$/myApp/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/admin.py" afterPath="$PROJECT_DIR$/myApp/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/apps.py" afterPath="$PROJECT_DIR$/myApp/apps.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/__init__.py" afterPath="$PROJECT_DIR$/myApp/manager/__init__.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/admin_edit_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/admin_edit_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/collect_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/collect_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/download_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/download_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/excel_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/excel_manager.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/frame_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/frame_manager.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/home_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/home_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/json_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/json_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/login_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/login_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/member_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/member_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/products_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/products_manager.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/response_data_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/response_data_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0001_initial.py" afterPath="$PROJECT_DIR$/myApp/migrations/0001_initial.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0002_homeimage.py" afterPath="$PROJECT_DIR$/myApp/migrations/0002_homeimage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0003_auto_20160722_1535.py" afterPath="$PROJECT_DIR$/myApp/migrations/0003_auto_20160722_1535.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0004_auto_20160722_1547.py" afterPath="$PROJECT_DIR$/myApp/migrations/0004_auto_20160722_1547.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0005_auto_20160722_1556.py" afterPath="$PROJECT_DIR$/myApp/migrations/0005_auto_20160722_1556.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0006_homepartimage.py" afterPath="$PROJECT_DIR$/myApp/migrations/0006_homepartimage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0007_auto_20160723_1018.py" afterPath="$PROJECT_DIR$/myApp/migrations/0007_auto_20160723_1018.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0008_auto_20160723_1045.py" afterPath="$PROJECT_DIR$/myApp/migrations/0008_auto_20160723_1045.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0009_auto_20160723_1240.py" afterPath="$PROJECT_DIR$/myApp/migrations/0009_auto_20160723_1240.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/0010_auto_20160817_1702.py" afterPath="$PROJECT_DIR$/myApp/migrations/0010_auto_20160817_1702.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/migrations/__init__.py" afterPath="$PROJECT_DIR$/myApp/migrations/__init__.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/models.py" afterPath="$PROJECT_DIR$/myApp/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/tests.py" afterPath="$PROJECT_DIR$/myApp/tests.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/translate.py" afterPath="$PROJECT_DIR$/myApp/translate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/views.py" afterPath="$PROJECT_DIR$/myApp/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/base.css" afterPath="$PROJECT_DIR$/static/admin/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/changelists.css" afterPath="$PROJECT_DIR$/static/admin/css/changelists.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/dashboard.css" afterPath="$PROJECT_DIR$/static/admin/css/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/fonts.css" afterPath="$PROJECT_DIR$/static/admin/css/fonts.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/forms.css" afterPath="$PROJECT_DIR$/static/admin/css/forms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/login.css" afterPath="$PROJECT_DIR$/static/admin/css/login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/rtl.css" afterPath="$PROJECT_DIR$/static/admin/css/rtl.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/css/widgets.css" afterPath="$PROJECT_DIR$/static/admin/css/widgets.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" afterPath="$PROJECT_DIR$/static/admin/fonts/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/fonts/README.txt" afterPath="$PROJECT_DIR$/static/admin/fonts/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/LICENSE" afterPath="$PROJECT_DIR$/static/admin/img/LICENSE" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/README.txt" afterPath="$PROJECT_DIR$/static/admin/img/README.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/calendar-icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_off.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" afterPath="$PROJECT_DIR$/static/admin/img/gis/move_vertex_on.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-addlink.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-alert.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-calendar.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-changelink.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-clock.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-deletelink.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-no.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-no.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown-alt.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-unknown.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" afterPath="$PROJECT_DIR$/static/admin/img/icon-yes.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" afterPath="$PROJECT_DIR$/static/admin/img/inline-delete.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/search.svg" afterPath="$PROJECT_DIR$/static/admin/img/search.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/selector-icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" afterPath="$PROJECT_DIR$/static/admin/img/sorting-icons.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-add.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" afterPath="$PROJECT_DIR$/static/admin/img/tooltag-arrowright.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/SelectBox.js" afterPath="$PROJECT_DIR$/static/admin/js/SelectBox.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" afterPath="$PROJECT_DIR$/static/admin/js/SelectFilter2.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/actions.js" afterPath="$PROJECT_DIR$/static/admin/js/actions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/actions.min.js" afterPath="$PROJECT_DIR$/static/admin/js/actions.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" afterPath="$PROJECT_DIR$/static/admin/js/admin/DateTimeShortcuts.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" afterPath="$PROJECT_DIR$/static/admin/js/admin/RelatedObjectLookups.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/calendar.js" afterPath="$PROJECT_DIR$/static/admin/js/calendar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/cancel.js" afterPath="$PROJECT_DIR$/static/admin/js/cancel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/change_form.js" afterPath="$PROJECT_DIR$/static/admin/js/change_form.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/collapse.js" afterPath="$PROJECT_DIR$/static/admin/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/collapse.min.js" afterPath="$PROJECT_DIR$/static/admin/js/collapse.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/core.js" afterPath="$PROJECT_DIR$/static/admin/js/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/inlines.js" afterPath="$PROJECT_DIR$/static/admin/js/inlines.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/inlines.min.js" afterPath="$PROJECT_DIR$/static/admin/js/inlines.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/jquery.init.js" afterPath="$PROJECT_DIR$/static/admin/js/jquery.init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/popup_response.js" afterPath="$PROJECT_DIR$/static/admin/js/popup_response.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" afterPath="$PROJECT_DIR$/static/admin/js/prepopulate_init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/timeparse.js" afterPath="$PROJECT_DIR$/static/admin/js/timeparse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/urlify.js" afterPath="$PROJECT_DIR$/static/admin/js/urlify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/LICENSE-JQUERY.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/jquery/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" afterPath="$PROJECT_DIR$/static/admin/js/vendor/xregexp/xregexp.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/angular/angular-animate.js" afterPath="$PROJECT_DIR$/static/angular/angular-animate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/angular/angular-cookies.js" afterPath="$PROJECT_DIR$/static/angular/angular-cookies.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/angular/angular-resource.js" afterPath="$PROJECT_DIR$/static/angular/angular-resource.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/angular/angular-route.js" afterPath="$PROJECT_DIR$/static/angular/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/angular/angular.js" afterPath="$PROJECT_DIR$/static/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/angular/angular.min.js" afterPath="$PROJECT_DIR$/static/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/angular/dirPagination.js" afterPath="$PROJECT_DIR$/static/angular/dirPagination.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap-theme.css" afterPath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap-theme.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap-theme.css.map" afterPath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap-theme.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap-theme.min.css" afterPath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap-theme.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap.css" afterPath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap.css.map" afterPath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap.css.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/static/bootstrap3/css/bootstrap.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.svg" afterPath="$PROJECT_DIR$/static/bootstrap3/fonts/glyphicons-halflings-regular.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/js/bootstrap.js" afterPath="$PROJECT_DIR$/static/bootstrap3/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/static/bootstrap3/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/bootstrap3/js/npm.js" afterPath="$PROJECT_DIR$/static/bootstrap3/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/admin.css" afterPath="$PROJECT_DIR$/static/css/pc/admin.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/admin_login.css" afterPath="$PROJECT_DIR$/static/css/pc/admin_login.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/animation.css" afterPath="$PROJECT_DIR$/static/css/pc/animation.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/base.css" afterPath="$PROJECT_DIR$/static/css/pc/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/buttons.css" afterPath="$PROJECT_DIR$/static/css/pc/buttons.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/collects.css" afterPath="$PROJECT_DIR$/static/css/pc/collects.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/font-awesome.min.css" afterPath="$PROJECT_DIR$/static/css/pc/font-awesome.min.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/home.css" afterPath="$PROJECT_DIR$/static/css/pc/home.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/pc/products.css" afterPath="$PROJECT_DIR$/static/css/pc/products.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/Sunglasses.json" afterPath="$PROJECT_DIR$/static/data/Sunglasses.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/admin.json" afterPath="$PROJECT_DIR$/static/data/admin.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/base.json" afterPath="$PROJECT_DIR$/static/data/base.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/collects.json" afterPath="$PROJECT_DIR$/static/data/collects.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/collects/u1.json" afterPath="$PROJECT_DIR$/static/data/collects/u1.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/collects/u2.json" afterPath="$PROJECT_DIR$/static/data/collects/u2.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/frame.json" afterPath="$PROJECT_DIR$/static/data/frame.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/home.json" afterPath="$PROJECT_DIR$/static/data/home.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/type.json" afterPath="$PROJECT_DIR$/static/data/type.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/users.json" afterPath="$PROJECT_DIR$/static/data/users.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/animations.js" afterPath="$PROJECT_DIR$/static/js/animations.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/app.js" afterPath="$PROJECT_DIR$/static/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/controllers/admin_ctrl.js" afterPath="$PROJECT_DIR$/static/js/controllers/admin_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/controllers/collects_ctrl.js" afterPath="$PROJECT_DIR$/static/js/controllers/collects_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/controllers/home_ctrl.js" afterPath="$PROJECT_DIR$/static/js/controllers/home_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/controllers/products_ctrl.js" afterPath="$PROJECT_DIR$/static/js/controllers/products_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/controllers/products_list_ctrl.js" afterPath="$PROJECT_DIR$/static/js/controllers/products_list_ctrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/pc/home.js" afterPath="$PROJECT_DIR$/static/js/pc/home.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/service/data.js" afterPath="$PROJECT_DIR$/static/js/service/data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/tools/jquery-3.0.0.js" afterPath="$PROJECT_DIR$/static/js/tools/jquery-3.0.0.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/tools/promise.js" afterPath="$PROJECT_DIR$/static/js/tools/promise.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/admin.html" afterPath="$PROJECT_DIR$/templates/admin/admin.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/admin_collects.html" afterPath="$PROJECT_DIR$/templates/admin/admin_collects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/admin_login.html" afterPath="$PROJECT_DIR$/templates/admin/admin_login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/admin_manager.html" afterPath="$PROJECT_DIR$/templates/admin/admin_manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/frame_manager.html" afterPath="$PROJECT_DIR$/templates/admin/frame_manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/home_edit_parts.html" afterPath="$PROJECT_DIR$/templates/admin/home_edit_parts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/home_manager.html" afterPath="$PROJECT_DIR$/templates/admin/home_manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/products_manage_parts.html" afterPath="$PROJECT_DIR$/templates/admin/products_manage_parts.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/products_manager.html" afterPath="$PROJECT_DIR$/templates/admin/products_manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/user_action.html" afterPath="$PROJECT_DIR$/templates/admin/user_action.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/admin/user_manager.html" afterPath="$PROJECT_DIR$/templates/admin/user_manager.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/client/mobile/base.html" afterPath="$PROJECT_DIR$/templates/client/mobile/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/client/pc/base.html" afterPath="$PROJECT_DIR$/templates/client/pc/base.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/client/pc/collects.html" afterPath="$PROJECT_DIR$/templates/client/pc/collects.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/client/pc/home.html" afterPath="$PROJECT_DIR$/templates/client/pc/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/client/pc/products_detail.html" afterPath="$PROJECT_DIR$/templates/client/pc/products_detail.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/client/pc/products_list.html" afterPath="$PROJECT_DIR$/templates/client/pc/products_list.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test.js" afterPath="$PROJECT_DIR$/test.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wsgi.py" afterPath="$PROJECT_DIR$/wsgi.py" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -257,14 +71,6 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/amorino$wsgi.coverage" NAME="wsgi Coverage Results" MODIFIED="1476620546352" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/code$Test__static_js_collects_js.coverage" NAME="Test: static.js.collects.js Coverage Results" MODIFIED="1471706266615" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/amorino$Test__test_js.coverage" NAME="Test: test.js Coverage Results" MODIFIED="1472961248148" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/code$Test__static_js_home_js.coverage" NAME="Test: static.js.home.js Coverage Results" MODIFIED="1471668293212" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/amorino$translate.coverage" NAME="translate Coverage Results" MODIFIED="1476864170017" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/myApp" />
-    <SUITE FILE_PATH="coverage/amorino$test.coverage" NAME="test Coverage Results" MODIFIED="1476862358419" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -284,27 +90,97 @@
     <favorites_list name="code" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.65520066">
+    <splitter split-orientation="horizontal" split-proportion="0.5455323">
       <split-first>
-        <leaf>
-          <file leaf-file-name="products_manager.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/myApp/manager/products_manager.py">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="member_manager.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myApp/manager/member_manager.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="2166">
-                  <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="translate.py" pinned="false" current-in-tab="true">
+          <file leaf-file-name="translate.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myApp/translate.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="179">
-                  <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+                <state relative-caret-position="19">
+                  <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="products_manage_parts.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/admin/products_manage_parts.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="products_manager.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/admin/products_manager.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="products_detail.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/client/mobile/products_detail.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="products_list.html" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/templates/client/pc/products_list.html">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="94">
+                  <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
                   <folding>
-                    <element signature="e#15#28#0" expanded="true" />
+                    <marker date="1472994242000" expanded="true" signature="1064:1160" ph="{...}" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/README.md">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="38">
+                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="response_data_manager.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myApp/manager/response_data_manager.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="779">
+                  <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Sun_glasses.json" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/static/data/Sun_glasses.json">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="1174" selection-start-line="0" selection-start-column="1174" selection-end-line="0" selection-end-column="1174" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -312,8 +188,8 @@
           <file leaf-file-name="admin_edit_manager.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/myApp/manager/admin_edit_manager.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="266">
-                  <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+                <state relative-caret-position="684">
+                  <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
                   <folding />
                 </state>
               </provider>
@@ -322,15 +198,53 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file leaf-file-name="test.py" pinned="false" current-in-tab="true">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/test.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="363">
+                <state relative-caret-position="418">
                   <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="36" selection-end-column="11" />
-                  <folding>
-                    <element signature="e#37#51#0" expanded="true" />
-                  </folding>
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/glasses_project/urls.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="684">
+                  <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myApp/views.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="2679">
+                  <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="frame_manager.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/myApp/manager/frame_manager.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="532">
+                  <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="home_manager.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/myApp/manager/home_manager.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="228">
+                  <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -353,10 +267,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/js/home.js" />
-        <option value="$PROJECT_DIR$/templates/admin/admin_collects.html" />
-        <option value="$PROJECT_DIR$/templates/admin/admin.html" />
-        <option value="$PROJECT_DIR$/templates/client/base.html" />
         <option value="$PROJECT_DIR$/static/css/products.css" />
         <option value="$PROJECT_DIR$/static/css/collects.css" />
         <option value="$PROJECT_DIR$/glasses_project/wsgi.py" />
@@ -371,21 +281,17 @@
         <option value="$PROJECT_DIR$/static/css/mobile/mobileperson.css" />
         <option value="$PROJECT_DIR$/templates/client/mobile/login.html" />
         <option value="$PROJECT_DIR$/templates/admin/home_edit_parts.html" />
-        <option value="$PROJECT_DIR$/myApp/manager/home_manager.py" />
         <option value="$PROJECT_DIR$/static/data/home.json" />
         <option value="$PROJECT_DIR$/templates/admin/home_manager.html" />
         <option value="$PROJECT_DIR$/static/data/collects.json" />
-        <option value="$PROJECT_DIR$/static/data/type.json" />
         <option value="$PROJECT_DIR$/static/data/users.json" />
         <option value="$PROJECT_DIR$/glasses_project/urls.py" />
         <option value="$PROJECT_DIR$/myApp/views.py" />
         <option value="$PROJECT_DIR$/test.js" />
         <option value="$PROJECT_DIR$/static/data/base.json" />
-        <option value="$PROJECT_DIR$/myApp/manager/response_data_manager.py" />
         <option value="$PROJECT_DIR$/templates/admin/products_manage_parts.html" />
         <option value="$PROJECT_DIR$/static/data/Glasses.json" />
         <option value="$PROJECT_DIR$/templates/client/pc/products_list.html" />
-        <option value="$PROJECT_DIR$/static/data/Sunglasses.json" />
         <option value="$PROJECT_DIR$/static/js/controllers/admin_ctrl.js" />
         <option value="$PROJECT_DIR$/static/css/pc/products.css" />
         <option value="$PROJECT_DIR$/static/css/mobile/products.css" />
@@ -402,7 +308,15 @@
         <option value="$PROJECT_DIR$/myinput.txt" />
         <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/myApp/manager/products_manager.py" />
+        <option value="$PROJECT_DIR$/myApp/manager/frame_manager.py" />
+        <option value="$PROJECT_DIR$/myApp/manager/home_manager.py" />
         <option value="$PROJECT_DIR$/myApp/manager/admin_edit_manager.py" />
+        <option value="$PROJECT_DIR$/static/data/Sunglasses.json" />
+        <option value="$PROJECT_DIR$/myApp/manager/response_data_manager.py" />
+        <option value="$PROJECT_DIR$/static/data/Optical_glasses.json" />
+        <option value="$PROJECT_DIR$/static/data/Test_glasses.json" />
+        <option value="$PROJECT_DIR$/static/data/type.json" />
+        <option value="$PROJECT_DIR$/static/data/Sun_glasses.json" />
         <option value="$PROJECT_DIR$/myApp/translate.py" />
       </list>
     </option>
@@ -415,9 +329,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="4" />
-    <option name="y" value="23" />
+    <option name="y" value="22" />
     <option name="width" value="1436" />
-    <option name="height" value="877" />
+    <option name="height" value="878" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -444,7 +358,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -473,262 +386,13 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="admin" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="img" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="products_list" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="data" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="pc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="mobile" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="myApp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manager" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="amorino" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="glasses_project" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="Scratches" />
     </panes>
   </component>
@@ -739,22 +403,24 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file:///Users/yong/Documents/python/amorino/static/data/type.json" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/static" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/static/js/mobile" />
+      <recent name="$PROJECT_DIR$/static/angular" />
+      <recent name="$PROJECT_DIR$/static/data" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/static/js/pc" />
       <recent name="$PROJECT_DIR$/static/css/pc" />
       <recent name="$PROJECT_DIR$/templates/client/pc" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$" />
-      <recent name="$PROJECT_DIR$/static/js/mobile" />
-      <recent name="$PROJECT_DIR$/static/angular" />
-      <recent name="$PROJECT_DIR$/static/data" />
-      <recent name="$PROJECT_DIR$/templates/client" />
-    </key>
   </component>
-  <component name="RunManager" selected="Python.translate">
+  <component name="RunManager">
     <configuration default="false" name="Test: static.js.collects.js" type="DjangoTestsConfigurationType" factoryName="Django tests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -795,7 +461,7 @@
       <option name="OPTIONS" value="" />
       <method />
     </configuration>
-    <configuration default="false" name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -808,7 +474,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -831,7 +497,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="wsgi" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -844,7 +510,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wsgi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -860,7 +526,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="TARGET" value="" />
       <option name="SETTINGS_FILE" value="" />
@@ -870,34 +536,6 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
-      <method />
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
       <method />
     </configuration>
     <configuration default="true" type="Python.DjangoServer" factoryName="Django server">
@@ -911,7 +549,7 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
+      <module name="" />
       <option name="launchJavascriptDebuger" value="false" />
       <option name="port" value="8000" />
       <option name="host" value="" />
@@ -934,24 +572,11 @@
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
+      <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <module name="code" />
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
@@ -968,116 +593,6 @@
       <scripts />
       <node-interpreter value="project" />
       <envs />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Attests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Doctests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="tests" factoryName="py.test">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="testToRun" value="" />
-      <option name="keywords" value="" />
-      <option name="params" value="" />
-      <option name="USE_PARAM" value="false" />
-      <option name="USE_KEYWORD" value="false" />
       <method />
     </configuration>
     <configuration default="false" name="code" type="Python.DjangoServer" factoryName="Django server">
@@ -1108,19 +623,10 @@
       <item index="0" class="java.lang.String" itemvalue="Django server.code" />
       <item index="1" class="java.lang.String" itemvalue="Django tests.Test: static.js.collects.js" />
       <item index="2" class="java.lang.String" itemvalue="Django tests.Test: test.js" />
-      <item index="3" class="java.lang.String" itemvalue="Python.wsgi" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test" />
       <item index="4" class="java.lang.String" itemvalue="Python.translate" />
-      <item index="5" class="java.lang.String" itemvalue="Python.test" />
+      <item index="5" class="java.lang.String" itemvalue="Python.wsgi" />
     </list>
-    <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.translate" />
-        <item index="1" class="java.lang.String" itemvalue="Python.test" />
-        <item index="2" class="java.lang.String" itemvalue="Python.wsgi" />
-        <item index="3" class="java.lang.String" itemvalue="Django tests.Test: test.js" />
-        <item index="4" class="java.lang.String" itemvalue="Django tests.Test: static.js.collects.js" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -1135,6 +641,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1471583611215</updated>
+      <workItem from="1481169855140" duration="628000" />
+      <workItem from="1481278100644" duration="501000" />
+      <workItem from="1481442787006" duration="18000" />
     </task>
     <servers />
   </component>
@@ -1152,28 +661,31 @@
       <configuration name="Test: test.js" configurationId="DjangoTestsConfigurationType" />
     </history-entry>
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1147000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="4" y="23" width="1436" height="877" extended-state="6" />
+    <frame x="4" y="22" width="1436" height="878" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1241033" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13055953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998565" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3292683" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299363" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31847134" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33503184" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27989823" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5363057" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32968882" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1194,33 +706,55 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/myoutput.txt">
+    <entry file="file://$PROJECT_DIR$/static/data/Sun_glasses.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="1174" selection-start-line="0" selection-start-column="1174" selection-end-line="0" selection-end-column="1174" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myinput.txt">
+    <entry file="file://$PROJECT_DIR$/myApp/manager/admin_edit_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="1" selection-start-line="0" selection-start-column="1" selection-end-line="0" selection-end-column="1" />
+        <state relative-caret-position="697">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="363">
+        <state relative-caret-position="442">
           <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="36" selection-end-column="11" />
-          <folding>
-            <element signature="e#37#51#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/glasses_project/wsgi.py">
+    <entry file="file://$PROJECT_DIR$/glasses_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/frame_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/home_manager.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1228,11 +762,155 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/products_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="950">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glasses_project/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/member_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/translate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1539">
+          <caret line="85" column="66" selection-start-line="85" selection-start-column="66" selection-end-line="85" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/response_data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/Sun_glasses.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1174" selection-start-line="0" selection-start-column="1174" selection-end-line="0" selection-end-column="1174" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/admin_edit_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glasses_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2679">
+          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/frame_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/home_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/products_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2223">
+          <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/translate.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="703">
+          <caret line="41" column="36" selection-start-line="41" selection-start-column="36" selection-end-line="41" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/admin_edit_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1007">
+          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/products_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/products_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myoutput.txt" />
+    <entry file="file://$PROJECT_DIR$/myinput.txt" />
     <entry file="file://$PROJECT_DIR$/glasses_project/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-361">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1240,33 +918,160 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="13" selection-end-column="31" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glasses_project/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/Optical_glasses.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/Sunglasses.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/Test_glasses.json" />
+    <entry file="file://$PROJECT_DIR$/static/data/users.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/type.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="23" selection-start-line="0" selection-start-column="23" selection-end-line="0" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myApp/manager/products_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2166">
-          <caret line="119" column="25" selection-start-line="119" selection-start-column="25" selection-end-line="119" selection-end-column="25" />
+        <state relative-caret-position="950">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/myApp/manager/admin_edit_manager.py">
+    <entry file="file://$PROJECT_DIR$/myApp/manager/member_manager.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="58" column="35" selection-start-line="58" selection-start-column="35" selection-end-line="58" selection-end-column="35" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/myApp/translate.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="34" column="23" selection-start-line="34" selection-start-column="23" selection-end-line="34" selection-end-column="23" />
+        <state relative-caret-position="19">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/products_manage_parts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/products_manager.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/client/mobile/products_detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/response_data_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="46" column="31" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/data/Sun_glasses.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="1174" selection-start-line="0" selection-start-column="1174" selection-end-line="0" selection-end-column="1174" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/admin_edit_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="41" column="37" selection-start-line="41" selection-start-column="37" selection-end-line="41" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="26" column="0" selection-start-line="26" selection-start-column="0" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/glasses_project/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="40" column="78" selection-start-line="40" selection-start-column="78" selection-end-line="40" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2679">
+          <caret line="155" column="29" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/frame_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp/manager/home_manager.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="27" selection-start-line="16" selection-start-column="27" selection-end-line="16" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/client/pc/products_list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
           <folding>
-            <element signature="e#15#28#0" expanded="true" />
+            <marker date="1472994242000" expanded="true" signature="1064:1160" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
