@@ -2,65 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15ad575d-597d-43f2-8f33-107157488fe7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/admin.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/pc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/static/phone.png" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/Optical_glasses.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/data/Sunglasses.json" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/10.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/11.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/2.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Optical_glasses/Logo/Logo_qeooqzfmzq/9.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_aofrztjakp/9.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/12.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/2.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/3.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/4.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_brltcjmbtv/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/1.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/4.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Paragraph_mark/Paragraph_mark_kqwybsqzzs/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/10.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/11.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/12.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/13.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/3.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/7.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_hmkndtoqxn/9.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/1.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/2.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/3.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/4.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_oapwacaylb/8.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/10.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/4.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/5.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/6.pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/static/img/products_list/Sunglasses/Spring_and_summer/Spring_and_summer_rdonyedukf/7.pic.jpg" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db.sqlite3" afterPath="$PROJECT_DIR$/db.sqlite3" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/admin_edit_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/admin_edit_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/frame_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/frame_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/home_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/home_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/manager/response_data_manager.py" afterPath="$PROJECT_DIR$/myApp/manager/response_data_manager.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/myApp/translate.py" afterPath="$PROJECT_DIR$/myApp/translate.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/frame.json" afterPath="$PROJECT_DIR$/static/data/frame.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/home.json" afterPath="$PROJECT_DIR$/static/data/home.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/data/type.json" afterPath="$PROJECT_DIR$/static/data/type.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
     </list>
     <ignored path="code.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -158,8 +101,8 @@
           <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/README.md">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="38">
-                  <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+                <state relative-caret-position="133">
+                  <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
                   <folding />
                 </state>
               </provider>
@@ -267,7 +210,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/static/css/products.css" />
         <option value="$PROJECT_DIR$/static/css/collects.css" />
         <option value="$PROJECT_DIR$/glasses_project/wsgi.py" />
         <option value="$PROJECT_DIR$/static/js/mobile/home.js" />
@@ -318,6 +260,7 @@
         <option value="$PROJECT_DIR$/static/data/type.json" />
         <option value="$PROJECT_DIR$/static/data/Sun_glasses.json" />
         <option value="$PROJECT_DIR$/myApp/translate.py" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -666,7 +609,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="22" width="1436" height="878" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13055953" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1069,8 +1012,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+        <state relative-caret-position="133">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="70" selection-end-line="7" selection-end-column="70" />
           <folding />
         </state>
       </provider>
